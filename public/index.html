@@ -247,7 +247,9 @@ function buildLoadedData(d) {
   var loaded = {};
   loaded.stoic  = getEntry(ALL_DATA.stoic, key);
   loaded.dad    = getEntry(ALL_DATA.dad, key);
-  loaded.journal = {summary:'', fullText:[], author:null};
+  var jr = JOURNAL_DATA ? JOURNAL_DATA[key] : null;
+  var preview = jr && jr.prompt ? (jr.prompt.replace(/\s+/g,' ').match(/^[^.!?]+[.!?]/) || [jr.prompt])[0] : '';
+  loaded.journal = {summary: preview, fullText:[], author:null};
   loaded.weekly  = getEntry(ALL_DATA.weekly, getMostRecentMonday(d));
   return loaded;
 }
@@ -469,7 +471,11 @@ function showError(msg){
 }
 
 // ── Initial load ──────────────────────────────────────────────────────────────
-renderDeck(activeDate);
+var JOURNAL_DATA = null;
+fetch('/journal.json')
+  .then(function(r){ return r.json(); })
+  .then(function(data){ JOURNAL_DATA = data; renderDeck(activeDate); })
+  .catch(function(){ renderDeck(activeDate); });
 </script>
 </body>
 </html>
