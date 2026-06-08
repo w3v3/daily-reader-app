@@ -247,8 +247,7 @@ function buildLoadedData(d) {
   var loaded = {};
   loaded.stoic  = getEntry(ALL_DATA.stoic, key);
   loaded.dad    = getEntry(ALL_DATA.dad, key);
-  var jr = getEntry(ALL_DATA.journal, key);
-  loaded.journal = jr ? {summary: jr.text, fullText:[], author:null} : null;
+  loaded.journal = {summary:'', fullText:[], author:null};
   loaded.weekly  = getEntry(ALL_DATA.weekly, getMostRecentMonday(d));
   return loaded;
 }
@@ -366,12 +365,13 @@ function openFull(src,e,c){
     document.getElementById('fp-body').innerHTML='<div class="reflection-loading"><span></span><span></span><span></span></div>';
     document.getElementById('fp-scroll').scrollTop=0;
     showFull();
-    var mm=String(activeDate.getMonth()+1).padStart(2,'0');
-    var dd=String(activeDate.getDate()).padStart(2,'0');
+    var key=dateKey(activeDate);
+    console.log('[journal] looking up key:', key);
     fetch('/journal.json')
       .then(function(r){return r.json();})
       .then(function(data){
-        var entry=data[mm+'-'+dd]||{};
+        var entry=data[key]||{};
+        console.log('[journal] entry found:', entry);
         var prompt=entry.prompt||'';
         var context=entry.context||'';
         var el=document.getElementById('fp-body');
@@ -379,7 +379,8 @@ function openFull(src,e,c){
         el.innerHTML=(prompt?'<div class="journal-q">\u201c'+prompt+'\u201d</div>':'')
                     +(context?'<div class="journal-reflection"><p>'+context+'</p></div>':'');
       })
-      .catch(function(){
+      .catch(function(err){
+        console.error('[journal] fetch error:', err);
         var el=document.getElementById('fp-body');
         if(el) el.innerHTML='';
       });
