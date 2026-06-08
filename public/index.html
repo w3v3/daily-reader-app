@@ -363,12 +363,26 @@ function openFull(src,e,c){
   document.getElementById('fp-author').textContent=e.author||'';
   var html='';
   if(src==='journal'){
-    html='<div class="journal-q">\u201c'+e.summary+'\u201d</div>'
-        +'<div id="journal-reflection" class="journal-reflection"><div class="reflection-loading"><span></span><span></span><span></span></div></div>';
-    document.getElementById('fp-body').innerHTML=html;
+    document.getElementById('fp-body').innerHTML='<div class="reflection-loading"><span></span><span></span><span></span></div>';
     document.getElementById('fp-scroll').scrollTop=0;
     showFull();
-    generateJournalReflection(e.summary);
+    var mm=String(activeDate.getMonth()+1).padStart(2,'0');
+    var dd=String(activeDate.getDate()).padStart(2,'0');
+    fetch('/journal.json')
+      .then(function(r){return r.json();})
+      .then(function(data){
+        var entry=data[mm+'-'+dd]||{};
+        var prompt=entry.prompt||'';
+        var context=entry.context||'';
+        var el=document.getElementById('fp-body');
+        if(!el) return;
+        el.innerHTML=(prompt?'<div class="journal-q">\u201c'+prompt+'\u201d</div>':'')
+                    +(context?'<div class="journal-reflection"><p>'+context+'</p></div>':'');
+      })
+      .catch(function(){
+        var el=document.getElementById('fp-body');
+        if(el) el.innerHTML='';
+      });
     return;
   } else {
     html=renderBlocks(e.fullText||[]);
@@ -378,30 +392,6 @@ function openFull(src,e,c){
   showFull();
 }
 
-function generateJournalReflection(prompt){
-  fetch('/api/reflect',{
-    method:'POST',
-    headers:{'Content-Type':'application/json'},
-    body:JSON.stringify({
-      model:'claude-sonnet-4-20250514',max_tokens:1000,
-      system:'You are a Stoic philosophy guide. When given a daily journal prompt, write 2-3 short paragraphs of thoughtful reflection to help the reader engage with the question. Write in a warm but grounded tone — no flowery language, no bullet points. Speak directly to the reader using "you". Draw on Stoic philosophy naturally without being academic. Do not restate the question. Return only the reflection paragraphs, nothing else.',
-      messages:[{role:'user',content:prompt}]
-    })
-  })
-  .then(function(r){return r.json();})
-  .then(function(data){
-    var text=data.content&&data.content[0]&&data.content[0].text?data.content[0].text:'';
-    var el=document.getElementById('journal-reflection');
-    if(!el) return;
-    if(!text){el.innerHTML='';return;}
-    var paras=text.split('\n\n').filter(function(p){return p.trim();});
-    el.innerHTML=paras.map(function(p){return '<p>'+p.replace(/\n/g,'<br>')+'</p>';}).join('');
-  })
-  .catch(function(){
-    var el=document.getElementById('journal-reflection');
-    if(el) el.innerHTML='';
-  });
-}
 
 document.getElementById('fp-close').onclick=function(){showDeck();};
 
