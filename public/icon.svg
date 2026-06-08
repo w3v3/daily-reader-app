@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#f4ede0"/>
+  <!-- Thin decorative ring -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#b8512e" stroke-width="6" opacity="0.5"/>
+  <circle cx="256" cy="256" r="198" fill="none" stroke="#b8512e" stroke-width="1.5" opacity="0.3"/>
+  <!-- Laurel-style arcs (left) -->
+  <path d="M 148 180 Q 100 220 100 256 Q 100 292 148 332" fill="none" stroke="#b8892a" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+  <path d="M 162 168 Q 110 212 110 256 Q 110 300 162 344" fill="none" stroke="#b8892a" stroke-width="1.5" opacity="0.35" stroke-linecap="round"/>
+  <!-- Laurel-style arcs (right) -->
+  <path d="M 364 180 Q 412 220 412 256 Q 412 292 364 332" fill="none" stroke="#b8892a" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+  <path d="M 350 168 Q 402 212 402 256 Q 402 300 350 344" fill="none" stroke="#b8892a" stroke-width="1.5" opacity="0.35" stroke-linecap="round"/>
+  <!-- "DR" text -->
+  <text x="256" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="168" font-weight="400" fill="#2a1a0a" text-anchor="middle" letter-spacing="-4">DR</text>
+  <!-- Thin rule below -->
+  <line x1="186" y1="322" x2="326" y2="322" stroke="#b8512e" stroke-width="1.5" opacity="0.5"/>
+  <!-- Small dot ornament -->
+  <circle cx="256" cy="338" r="3" fill="#b8512e" opacity="0.5"/>
+</svg>
