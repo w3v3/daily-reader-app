@@ -1,0 +1,1462 @@
+{
+  "01-01": {
+    "prompt": "What does a good year look like for you — not in achievements, but in how you want to feel and who you want to be?",
+    "context": "The new year invites reflection not just on goals but on the quality of life you're building. Start from the inside out."
+  },
+  "01-02": {
+    "prompt": "What did last year teach you that you didn't expect to learn?",
+    "context": "The most important lessons rarely announce themselves. Looking back with honesty can reveal what truly shaped you."
+  },
+  "01-03": {
+    "prompt": "Where in your life are you still carrying a story that no longer fits who you are?",
+    "context": "We all have old narratives — about ourselves, our limits, our roles — that outlast their usefulness. Noticing them is the first step to letting them go."
+  },
+  "01-04": {
+    "prompt": "What is one relationship in your life you want to give more to this year, and what would that look like in practice?",
+    "context": "Good relationships don't maintain themselves. Naming the intention and making it concrete is how care becomes action."
+  },
+  "01-05": {
+    "prompt": "When did you last feel genuinely proud of yourself, and what made that moment meaningful?",
+    "context": "Pride that comes from alignment between your values and your actions is worth examining. It tells you what you actually care about."
+  },
+  "01-06": {
+    "prompt": "What does rest mean to you, and are you getting enough of it?",
+    "context": "Rest is not simply the absence of work. Understanding what truly restores you is practical wisdom, not indulgence."
+  },
+  "01-07": {
+    "prompt": "What fear have you been quietly working around instead of walking through?",
+    "context": "Avoidance is often invisible to us because it feels like prudence. Naming what you're sidestepping is an act of honesty."
+  },
+  "01-08": {
+    "prompt": "What habits or routines make you feel most like yourself?",
+    "context": "The small repeated choices that make up a day are the architecture of a life. Which ones are load-bearing?"
+  },
+  "01-09": {
+    "prompt": "Who in your life tells you the truth, and how do you receive it?",
+    "context": "Honest relationships are rare and valuable. Reflecting on how open you are to difficult feedback reveals a lot about your relationship with growth."
+  },
+  "01-10": {
+    "prompt": "What have you been putting off that, if done, would give you relief or satisfaction?",
+    "context": "Procrastination often signals something — fear, overwhelm, unclear values. Noticing what you're avoiding can tell you more than what you're pursuing."
+  },
+  "01-11": {
+    "prompt": "How do you typically respond when things don't go to plan, and is that response serving you?",
+    "context": "Our default responses to disruption are often habitual rather than chosen. Examining them creates space for something better."
+  },
+  "01-12": {
+    "prompt": "What parts of your day feel most alive, and what parts feel like going through the motions?",
+    "context": "The texture of your daily experience matters. Noticing the difference between aliveness and numbness is worth paying attention to."
+  },
+  "01-13": {
+    "prompt": "What would you do differently if you cared less about what others thought of you?",
+    "context": "Social approval shapes so many of our choices, often below the level of awareness. Imagining freedom from it can reveal your truer preferences."
+  },
+  "01-14": {
+    "prompt": "What does simplicity mean to you, and is your life moving toward it or away from it?",
+    "context": "Simplicity is not about having less for its own sake. It's about making room for what matters and releasing what doesn't."
+  },
+  "01-15": {
+    "prompt": "Who has had the most positive influence on the person you're becoming, and have you told them?",
+    "context": "Gratitude unexpressed is often gratitude unfelt. Naming your influences can deepen your understanding of your own values."
+  },
+  "01-16": {
+    "prompt": "What is something you believe that most people in your life would disagree with?",
+    "context": "Genuine independent thought requires some distance from consensus. Knowing where you diverge from the crowd tells you something important about your perspective."
+  },
+  "01-17": {
+    "prompt": "In what area of your life do you most need more patience — with others, or with yourself?",
+    "context": "Impatience is often frustrated expectation. Examining where it shows up most can reveal where your expectations are out of step with reality."
+  },
+  "01-18": {
+    "prompt": "What does courage look like in your everyday life, not in dramatic moments but ordinary ones?",
+    "context": "Everyday courage is quieter than the heroic kind — speaking honestly, making the harder choice, staying present when avoidance would be easier."
+  },
+  "01-19": {
+    "prompt": "What is your relationship with solitude — do you seek it, avoid it, or find it by accident?",
+    "context": "How we feel about being alone with our own thoughts reveals a great deal. Solitude can be restorative, confronting, or both."
+  },
+  "01-20": {
+    "prompt": "Where are you spending energy on things you cannot control?",
+    "context": "The gap between what we can influence and what we actually worry about is one of the main sources of unnecessary suffering."
+  },
+  "01-21": {
+    "prompt": "What kind of person do you want to be in difficult moments, and how close are you to that person today?",
+    "context": "Character reveals itself under pressure. Having a clear image of who you want to be in hard times is a form of preparation."
+  },
+  "01-22": {
+    "prompt": "What have you outgrown in the last few years — a belief, a relationship, a version of yourself?",
+    "context": "Growth always involves leaving something behind. Being honest about what no longer fits is part of moving forward with integrity."
+  },
+  "01-23": {
+    "prompt": "What is one thing you could do this week that your future self would thank you for?",
+    "context": "Small actions compound. Thinking from your future self's perspective can clarify what's worth doing now."
+  },
+  "01-24": {
+    "prompt": "How do you typically treat yourself when you make a mistake, and would you treat a friend that way?",
+    "context": "The gap between how we extend compassion to others and how we speak to ourselves is often revealing and sometimes painful."
+  },
+  "01-25": {
+    "prompt": "What does 'enough' look like for you — in work, in possessions, in recognition?",
+    "context": "Without a clear sense of enough, the pursuit of more becomes its own kind of trap. Knowing your own threshold is a form of freedom."
+  },
+  "01-26": {
+    "prompt": "What are you most curious about right now, and when did you last follow that curiosity?",
+    "context": "Curiosity is one of the quieter signals of aliveness. Noticing what genuinely interests you — and whether you're following it — is worth a moment."
+  },
+  "01-27": {
+    "prompt": "What does loyalty mean to you, and do your actions reflect that meaning?",
+    "context": "Loyalty is one of those values that's easy to claim and harder to practice consistently. Examining where you fall short is more useful than affirming where you succeed."
+  },
+  "01-28": {
+    "prompt": "If you could speak honestly to the version of yourself from five years ago, what would you say?",
+    "context": "The past self is both a stranger and familiar. What you'd say to them often reveals what you most needed to hear — and possibly still do."
+  },
+  "01-29": {
+    "prompt": "What recurring thought or worry takes up the most mental space, and have you examined it directly?",
+    "context": "Unexamined worries tend to expand. Bringing them into focus — asking what they're really about — often reduces their power."
+  },
+  "01-30": {
+    "prompt": "What does accountability look like in your life, and who holds you to it?",
+    "context": "Self-accountability is difficult without structure or witness. Reflecting on who or what keeps you honest is practical, not theoretical."
+  },
+  "01-31": {
+    "prompt": "How do you want to feel at the end of each day, and what gets in the way of that?",
+    "context": "A clear picture of daily satisfaction can help orient choices that otherwise seem unrelated to wellbeing."
+  },
+  "02-01": {
+    "prompt": "What would it mean to be truly at home in yourself?",
+    "context": "Not comfort exactly, but a kind of settled presence — knowing who you are well enough that you're not always looking for external confirmation."
+  },
+  "02-02": {
+    "prompt": "Where in your life are you being more careful than you need to be?",
+    "context": "Caution has its place, but overcaution can be its own kind of avoidance. Noticing where you're holding back unnecessarily is worth a look."
+  },
+  "02-03": {
+    "prompt": "What are you grateful for that you rarely think to name?",
+    "context": "The gratitude that comes easily is the obvious kind. The more useful practice is finding what's been invisible — the background conditions of a decent life."
+  },
+  "02-04": {
+    "prompt": "How do you decide what is worth your time, and is that method working?",
+    "context": "Time is the one resource you can't recover. Being explicit about how you're allocating it is more useful than assuming you'll figure it out."
+  },
+  "02-05": {
+    "prompt": "What does it mean to be a good friend, and are you one?",
+    "context": "Friendship is one of those things most people value highly and examine rarely. Honest reflection on what you actually offer people matters."
+  },
+  "02-06": {
+    "prompt": "Where do you feel most like yourself, and why?",
+    "context": "Certain environments, activities, or relationships allow more of us to be present. Understanding what creates that condition is worth knowing."
+  },
+  "02-07": {
+    "prompt": "What do you wish you had said — to someone, in some situation — that you stayed silent about?",
+    "context": "Unspoken words often stay with us longer than spoken ones. Examining what silences you can reveal something about your relationship with conflict or vulnerability."
+  },
+  "02-08": {
+    "prompt": "What belief about yourself has held you back the most, and where did it come from?",
+    "context": "Our self-limiting beliefs are rarely examined as carefully as the beliefs we hold about others. Tracing their origins often weakens their hold."
+  },
+  "02-09": {
+    "prompt": "What does generosity mean to you beyond money, and how do you practice it?",
+    "context": "Generosity of attention, time, and spirit is often harder and more meaningful than financial giving. What are you actually offering to others?"
+  },
+  "02-10": {
+    "prompt": "What is your relationship with uncertainty, and how has it changed over time?",
+    "context": "Tolerance for uncertainty is one of the most useful things a person can develop. Reflecting on how you've grown — or not — here is illuminating."
+  },
+  "02-11": {
+    "prompt": "Who do you admire most, and what specifically about them do you want to cultivate in yourself?",
+    "context": "Admiration is often a clue to our own aspirations. Getting specific about what draws you to someone can clarify your own direction."
+  },
+  "02-12": {
+    "prompt": "What part of your life feels most out of alignment with your values?",
+    "context": "The gap between what we say we value and how we actually live is uncomfortable to examine and useful to close."
+  },
+  "02-13": {
+    "prompt": "What does love ask of you right now — in any of its forms?",
+    "context": "Love is not only a feeling but an ongoing practice. What is the relationship, person, or project that most needs your care and presence?"
+  },
+  "02-14": {
+    "prompt": "What do you find hardest to forgive — in others, or in yourself?",
+    "context": "Forgiveness is not about condoning but about releasing. Understanding where you're still carrying resentment is the first step to putting it down."
+  },
+  "02-15": {
+    "prompt": "What would you do more of if you trusted yourself more?",
+    "context": "Self-trust is built through small kept promises to yourself. But first it helps to know what you're currently holding back because you doubt yourself."
+  },
+  "02-16": {
+    "prompt": "How do you respond to boredom, and what does that tell you?",
+    "context": "Boredom is one of the most revealing states. What we reach for when understimulated says a lot about our habits, fears, and unmet needs."
+  },
+  "02-17": {
+    "prompt": "What is one area of your life where you are making excuses instead of progress?",
+    "context": "Excuses and reasons exist on a spectrum, and they can feel identical from the inside. Honest examination can help you tell the difference."
+  },
+  "02-18": {
+    "prompt": "What would you try if failure were private?",
+    "context": "Fear of being seen to fail stops many things before they start. Imagining a private context for risk can reveal what you actually want to pursue."
+  },
+  "02-19": {
+    "prompt": "What does it mean to live with integrity, and where is yours being tested right now?",
+    "context": "Integrity is most visible in the small moments of friction — where the easier path diverges from the right one."
+  },
+  "02-20": {
+    "prompt": "What part of your past are you still defining yourself by?",
+    "context": "Identity can become a kind of loyalty to an old self. Examining which parts of your history you're still clinging to is part of growing forward."
+  },
+  "02-21": {
+    "prompt": "What do you need to hear from yourself right now that you've been waiting for someone else to say?",
+    "context": "We often look outward for validation or permission. Sometimes the most important voice is the one we've been ignoring."
+  },
+  "02-22": {
+    "prompt": "What does home mean to you, and are you making one?",
+    "context": "Home is both a place and a quality of being. Examining what it means to you reveals a lot about what you're building and what you need."
+  },
+  "02-23": {
+    "prompt": "Where are you rushing something that deserves more time?",
+    "context": "The pressure to move fast is constant and often external. Some things — relationships, decisions, healing — don't benefit from speed."
+  },
+  "02-24": {
+    "prompt": "What is the kindest thing you could do for yourself this week?",
+    "context": "Self-kindness is not self-indulgence. It's a form of maintenance, and often it's the thing most consistently skipped."
+  },
+  "02-25": {
+    "prompt": "What do you wish more people understood about you?",
+    "context": "The parts of us that feel unseen or misread often carry important information. Naming them, even privately, is a form of self-recognition."
+  },
+  "02-26": {
+    "prompt": "Where in your life are you waiting for conditions to be perfect before you begin?",
+    "context": "Perfect conditions rarely arrive. Noticing where perfectionism is functioning as delay is the first step to deciding whether the wait is worth it."
+  },
+  "02-27": {
+    "prompt": "What does discipline mean to you, and does your relationship with it feel healthy?",
+    "context": "Discipline can be a tool for freedom or a form of punishment. Examining the tone of your self-expectation is worth the discomfort."
+  },
+  "02-28": {
+    "prompt": "What have you learned about yourself from a relationship that ended?",
+    "context": "Endings — of friendships, partnerships, phases — are often where the most honest lessons live. What did that chapter teach you about yourself?"
+  },
+  "03-01": {
+    "prompt": "What is beginning to emerge in your life that you haven't fully named yet?",
+    "context": "New seasons often bring quiet shifts before they become visible. Paying attention to what's stirring at the edges of your awareness can be illuminating."
+  },
+  "03-02": {
+    "prompt": "What old habit are you ready to actually let go of, not just wish you could?",
+    "context": "Readiness is different from intention. Sometimes a habit simply loses its hold, and noticing that moment of readiness is worth capturing."
+  },
+  "03-03": {
+    "prompt": "What does growth feel like for you — exciting, uncomfortable, both, or something else?",
+    "context": "Growth means different things to different people and can feel different at different stages of life. Your honest answer matters more than the aspirational one."
+  },
+  "03-04": {
+    "prompt": "When do you feel most connected to others, and what conditions make that possible?",
+    "context": "Connection doesn't happen randomly. Understanding what opens you to other people can help you create more of those conditions deliberately."
+  },
+  "03-05": {
+    "prompt": "What is one belief you've held for a long time that you're not sure you still hold?",
+    "context": "Beliefs that once served us can quietly become outdated. Checking in on the ones you've carried longest is a form of intellectual honesty."
+  },
+  "03-06": {
+    "prompt": "What are you learning right now, and how is it changing you?",
+    "context": "Learning that matters tends to change something — how you see, how you act, who you're becoming. Naming the change makes it more real."
+  },
+  "03-07": {
+    "prompt": "What does it mean to take care of your body, and are you doing it?",
+    "context": "Physical wellbeing is often where values and daily choices diverge most visibly. No judgment — just honest reflection on what you're actually doing."
+  },
+  "03-08": {
+    "prompt": "What would you tell a younger person who is where you were ten years ago?",
+    "context": "The advice we'd give to a younger self is usually the advice we most needed then — and sometimes still need now."
+  },
+  "03-09": {
+    "prompt": "Where do you find meaning outside of your work or role?",
+    "context": "Identity tied entirely to what we do or produce is fragile. Knowing where else you find meaning gives you more ground to stand on."
+  },
+  "03-10": {
+    "prompt": "What conversation have you been avoiding, and what would it cost you to have it?",
+    "context": "Avoided conversations tend to compound — what could be said now grows heavier the longer it waits. Naming the conversation is the first step."
+  },
+  "03-11": {
+    "prompt": "How do you know when you're making a decision from fear versus from wisdom?",
+    "context": "Fear and wisdom can produce identical-looking choices from the outside. Developing the internal skill to tell them apart is worth the effort."
+  },
+  "03-12": {
+    "prompt": "What are you doing that you're doing only out of obligation, and is that okay?",
+    "context": "Not everything we do needs to be meaningful. But knowing which things are purely obligatory — and whether you've accepted that — is clarifying."
+  },
+  "03-13": {
+    "prompt": "What gives you a sense of purpose on the days when motivation is low?",
+    "context": "Purpose is the longer-running current beneath motivation's surface waves. Knowing what yours is can keep you moving when the feeling isn't there."
+  },
+  "03-14": {
+    "prompt": "What is the difference between being busy and being productive in your life right now?",
+    "context": "Busyness can feel like progress while producing little of what actually matters. Examining the distinction in your own days is uncomfortable but useful."
+  },
+  "03-15": {
+    "prompt": "What do you find beautiful, and when did you last let that feeling fully land?",
+    "context": "Beauty asks us to slow down and be present for a moment. Knowing what moves you — and whether you're giving it time — is worth knowing."
+  },
+  "03-16": {
+    "prompt": "How do you typically handle disappointment, and what would a healthier response look like?",
+    "context": "Disappointment is a reliable feature of life. Our habitual responses to it are often inherited rather than chosen, and often worth examining."
+  },
+  "03-17": {
+    "prompt": "What does fairness mean to you, and where do you feel it's most lacking in your life?",
+    "context": "A clear sense of fairness can be a guide — or a grievance. Understanding how it operates in you is practically useful."
+  },
+  "03-18": {
+    "prompt": "What parts of yourself do you show at work that you don't show elsewhere, and vice versa?",
+    "context": "The gap between our professional and personal selves is sometimes healthy and sometimes costly. Worth noticing which parts of you are getting less room."
+  },
+  "03-19": {
+    "prompt": "What would you do with your time if you weren't trying to impress anyone?",
+    "context": "Performance seeps into more of our choices than we notice. Imagining a completely unobserved life can reveal something true about what you actually want."
+  },
+  "03-20": {
+    "prompt": "What does it feel like to arrive at the first day of spring, and what are you hoping for?",
+    "context": "The turning of seasons can be a natural anchor for reflection. What do you want this new season to carry for you?"
+  },
+  "03-21": {
+    "prompt": "Who in your life challenges you to be better, and how do you receive that challenge?",
+    "context": "Growth often comes from friction with people who hold us to a higher standard. Your response to that friction is revealing."
+  },
+  "03-22": {
+    "prompt": "What do you want your daily life to feel like, not your peak moments but the ordinary days?",
+    "context": "We often design for the highlights and let the ordinary days happen by default. But the ordinary days are most of life."
+  },
+  "03-23": {
+    "prompt": "What is something you've done recently that took more courage than you expected?",
+    "context": "Courage in everyday life often goes unnamed because it doesn't look like the dramatic version. Noticing and naming it matters."
+  },
+  "03-24": {
+    "prompt": "Where in your life do you feel the most free, and where do you feel the least?",
+    "context": "Freedom and constraint exist in every life in different proportions. Understanding where you feel limited — and whether that limitation is real — is worth the look."
+  },
+  "03-25": {
+    "prompt": "What does vulnerability mean to you, and when did you last practice it?",
+    "context": "Vulnerability is not weakness — it's the willingness to be seen honestly. Reflecting on when you last allowed that is a useful measure."
+  },
+  "03-26": {
+    "prompt": "What have you been saying 'someday' to for too long?",
+    "context": "Someday is the word that turns intention into fantasy. Naming the specific thing — and asking what's actually in the way — is more honest."
+  },
+  "03-27": {
+    "prompt": "What is one assumption about your life that you've never really tested?",
+    "context": "We navigate by assumptions we've never examined. Even one looked at clearly can shift your picture of what's possible."
+  },
+  "03-28": {
+    "prompt": "How do you know when you've made a mistake, and what do you do next?",
+    "context": "The response to a mistake matters as much as the mistake itself. Your habitual pattern here is worth understanding."
+  },
+  "03-29": {
+    "prompt": "What does creativity mean in your life, and are you giving it room?",
+    "context": "Creativity is not reserved for artists. The impulse to make, shape, or solve appears everywhere if you look for it. Is yours getting expression?"
+  },
+  "03-30": {
+    "prompt": "What is one thing you're carrying that isn't actually yours to carry?",
+    "context": "We sometimes take on burdens — guilt, responsibility, worry — that belong to someone else or to no one. Identifying one is often enough to start putting it down."
+  },
+  "03-31": {
+    "prompt": "What have you learned this month that surprised you?",
+    "context": "Monthly reflection has a different quality than daily reflection — it catches patterns rather than moments. What shifted in March that you didn't expect?"
+  },
+  "04-01": {
+    "prompt": "What would it mean to begin again in some area of your life?",
+    "context": "Beginnings require a kind of courage that middles and endings don't. Where in your life might a fresh start actually serve you?"
+  },
+  "04-02": {
+    "prompt": "What is the most honest version of what you want right now?",
+    "context": "We often state what we want in qualified, socially acceptable terms. Beneath that version is usually something more specific and harder to admit."
+  },
+  "04-03": {
+    "prompt": "What does patience ask of you today?",
+    "context": "Patience is not passive endurance — it's an active choice to stay present and trust a process that isn't unfolding on your preferred schedule."
+  },
+  "04-04": {
+    "prompt": "What is a quality you want to embody more fully, and what would that look like in concrete terms?",
+    "context": "Abstract virtues become real through specific actions. Naming exactly what generosity, or courage, or calm looks like in your particular life makes them achievable."
+  },
+  "04-05": {
+    "prompt": "When did you last change your mind about something significant, and what caused the change?",
+    "context": "The ability to update your views is one of the more underrated forms of intelligence. Reflecting on how it happens for you can help you do it more deliberately."
+  },
+  "04-06": {
+    "prompt": "What role does ambition play in your life, and does it feel healthy?",
+    "context": "Ambition can be a fuel or a driver that overrides other values. Examining the quality of your ambition — what it costs and what it serves — is worth doing."
+  },
+  "04-07": {
+    "prompt": "What do you need to accept about something in your life that you've been resisting?",
+    "context": "Resistance to what is costs energy without changing the fact. Identifying one thing you could genuinely accept — not just endure — is a form of release."
+  },
+  "04-08": {
+    "prompt": "What brings you peace, and are you protecting that in your life?",
+    "context": "Peace is not just the absence of conflict. It's a positive condition that requires cultivation and protection, especially from the demands of busyness."
+  },
+  "04-09": {
+    "prompt": "What are you currently learning from a difficult relationship or situation?",
+    "context": "Difficulty, when looked at honestly, is often instructive. The question is whether you're learning the lesson or just managing the discomfort."
+  },
+  "04-10": {
+    "prompt": "How do you define success for yourself right now, separate from how others would define it for you?",
+    "context": "Borrowed definitions of success lead to borrowed lives. Knowing your own answer — even provisionally — gives you something to navigate by."
+  },
+  "04-11": {
+    "prompt": "What small act of beauty or care could you add to your day today?",
+    "context": "A life composed entirely of the necessary and urgent is impoverished in a quiet way. Small additions of beauty are not luxury — they're maintenance."
+  },
+  "04-12": {
+    "prompt": "What is one thing you've done for someone else recently that cost you something?",
+    "context": "Costless generosity is easy. The kind that requires something from you — time, discomfort, inconvenience — reveals more about your values."
+  },
+  "04-13": {
+    "prompt": "Where in your life are you confusing movement with progress?",
+    "context": "Activity can feel like advancement while leading nowhere useful. Checking the direction of your motion, not just its speed, is worth doing occasionally."
+  },
+  "04-14": {
+    "prompt": "What would you most like someone to understand about the life you're living?",
+    "context": "We all have an inner experience of our lives that others can only partially access. What is the part you most wish could be seen clearly?"
+  },
+  "04-15": {
+    "prompt": "What are you doing well that you rarely give yourself credit for?",
+    "context": "The mind often catalogues failures more readily than quiet competencies. Deliberate recognition of what you're actually doing well is not arrogance — it's accuracy."
+  },
+  "04-16": {
+    "prompt": "How has your understanding of strength changed over time?",
+    "context": "Early ideas about strength tend toward hardness and resistance. Maturity often reveals that some of the strongest things a person can do are soft."
+  },
+  "04-17": {
+    "prompt": "What truth about your life have you been keeping from yourself?",
+    "context": "Self-deception is almost always protective. But there are truths we're circling rather than facing that, once admitted, would free rather than harm us."
+  },
+  "04-18": {
+    "prompt": "What is one relationship pattern you keep repeating, and what do you think is driving it?",
+    "context": "Repeated patterns in relationships are rarely coincidental. They're usually pointing at something unresolved — a need, a wound, a habit of seeing."
+  },
+  "04-19": {
+    "prompt": "What do you want your life to stand for, and are you living in that direction?",
+    "context": "Legacy is not reserved for the famous. Every life stands for something. Knowing what you want yours to stand for helps you choose accordingly."
+  },
+  "04-20": {
+    "prompt": "What is the last thing you did just for the joy of it, with no productive purpose?",
+    "context": "The ability to do things for pure enjoyment is one of the quieter measures of a well-lived life. Is there enough of that in yours?"
+  },
+  "04-21": {
+    "prompt": "Where in your life is good enough actually good enough?",
+    "context": "Perfectionism applied evenly across everything is exhausting and counterproductive. Knowing where to relax the standard is its own kind of wisdom."
+  },
+  "04-22": {
+    "prompt": "What is your relationship with the natural world, and does it nourish you?",
+    "context": "Most of us live at increasing remove from nature. Noticing how you relate to it — and what it gives you when you're present to it — is worth the attention."
+  },
+  "04-23": {
+    "prompt": "What do you most want to protect in your life, and how are you doing that?",
+    "context": "The things most worth protecting are often the most easily eroded by distraction and busyness. Naming them is the first step to protecting them."
+  },
+  "04-24": {
+    "prompt": "What is a fear you've overcome, and what did overcoming it teach you?",
+    "context": "Past courage is evidence for future capability. Remembering specifically how you moved through a fear is both encouraging and instructive."
+  },
+  "04-25": {
+    "prompt": "What does your inner critic say most often, and is any of it useful?",
+    "context": "The inner critic is not entirely wrong and not entirely right. Learning to sort its useful signal from its destructive noise is a lifelong skill."
+  },
+  "04-26": {
+    "prompt": "What would you attempt if you knew you had enough support?",
+    "context": "Many aspirations stall not for lack of desire or ability but for felt lack of support. Naming what you'd need makes it possible to seek it."
+  },
+  "04-27": {
+    "prompt": "What is one thing you've said 'yes' to that you should have said 'no' to?",
+    "context": "Every yes is also a no to something else. Reviewing recent agreements honestly can help you recalibrate where your energy is actually going."
+  },
+  "04-28": {
+    "prompt": "What does forgiveness feel like when it's real, not just decided?",
+    "context": "The difference between the decision to forgive and the actual release of resentment is real and often large. Reflecting on where you are in that process is honest work."
+  },
+  "04-29": {
+    "prompt": "What is the most important thing you are doing with your life right now?",
+    "context": "Not the most impressive or the most visible — the most important. This answer might surprise you if you answer it honestly."
+  },
+  "04-30": {
+    "prompt": "What did this month ask of you, and did you show up for it?",
+    "context": "April often contains a certain restless energy — change moving faster than comfort allows. Reflecting on how you met this month's demands is a worthwhile close."
+  },
+  "05-01": {
+    "prompt": "What does abundance feel like for you, beyond money or possessions?",
+    "context": "Abundance can be a quality of attention, relationship, or time. Knowing where you feel it most — and how to access it — is worth exploring."
+  },
+  "05-02": {
+    "prompt": "What is something you have consistently undervalued in your life?",
+    "context": "We tend to undervalue the reliable and invisible — good health, stable friendships, quiet mornings. Naming what you've been overlooking is a form of gratitude."
+  },
+  "05-03": {
+    "prompt": "How do you handle envy when you notice it, and what is it usually pointing at?",
+    "context": "Envy is uncomfortable but informative. What we envy in others often shows us something we want and haven't admitted or pursued."
+  },
+  "05-04": {
+    "prompt": "What are you building right now, and why does it matter to you?",
+    "context": "Building can be literal or metaphorical — a career, a family, a skill, a self. Being clear about what you're in the middle of constructing gives the effort meaning."
+  },
+  "05-05": {
+    "prompt": "What does dignity mean to you, and where do you feel it most and least?",
+    "context": "Dignity is sometimes taken from us and sometimes surrendered. Reflecting on where you feel most and least yourself can reveal something important."
+  },
+  "05-06": {
+    "prompt": "What is the story you tell most often about yourself, and is it accurate?",
+    "context": "We all have a narrative self — a version of our lives we tell ourselves and others. Examining whether it's still accurate is a form of integrity."
+  },
+  "05-07": {
+    "prompt": "What would it mean to be at peace with where you are in life right now?",
+    "context": "Not resignation but genuine acceptance — seeing clearly where you are without the overlay of where you think you should be."
+  },
+  "05-08": {
+    "prompt": "Who do you need to thank, and what for specifically?",
+    "context": "Specific gratitude is more honest than general gratitude. Thinking of a person and articulating what they actually gave you is a meaningful exercise."
+  },
+  "05-09": {
+    "prompt": "What is one thing you do that takes care of someone else, and do you acknowledge that in yourself?",
+    "context": "Care work is often invisible, even to the person doing it. Recognizing your own quiet contributions is not self-congratulation — it's honesty."
+  },
+  "05-10": {
+    "prompt": "What are you most afraid of losing?",
+    "context": "The things we fear losing tell us what we most love and value. Naming them clearly is a form of paying attention to what matters."
+  },
+  "05-11": {
+    "prompt": "How do you know when to keep going versus when to stop?",
+    "context": "Persistence and stubbornness can look identical from the outside. Developing your own reliable sense of which is which is one of the more practical life skills."
+  },
+  "05-12": {
+    "prompt": "What is something you've always wanted to understand better, and what's stopped you?",
+    "context": "Intellectual curiosity left unpursued often turns into a quiet regret. Naming the barrier — time, intimidation, uncertainty — is the start of removing it."
+  },
+  "05-13": {
+    "prompt": "Where in your life are you being more harsh than the situation requires?",
+    "context": "Harshness toward ourselves or others is often habitual rather than appropriate. Noticing where it exceeds what's warranted is the first step to calibrating better."
+  },
+  "05-14": {
+    "prompt": "What does it mean to be present, and when does it come most easily to you?",
+    "context": "Presence is not a constant state but one that comes and goes. Knowing when it flows easily can help you create more of those conditions."
+  },
+  "05-15": {
+    "prompt": "What would you do if you found out you had one year to live?",
+    "context": "This question isn't morbid — it's a useful pressure test on what actually matters to you. The answer often clarifies priorities more than years of planning."
+  },
+  "05-16": {
+    "prompt": "Where have you grown most comfortable that comfort has become complacency?",
+    "context": "Comfort is not the enemy, but when it starts to foreclose growth or honesty, it deserves a second look."
+  },
+  "05-17": {
+    "prompt": "What is one habit of thought that regularly makes your life harder than it needs to be?",
+    "context": "Our minds have habitual patterns — catastrophizing, comparison, self-doubt — that operate below intention. Naming one honestly is the beginning of changing it."
+  },
+  "05-18": {
+    "prompt": "Who is someone you've lost touch with that you miss, and what has held you back from reaching out?",
+    "context": "Distance in relationships often comes from inertia and small embarrassments rather than intention. Naming what's in the way can remove it."
+  },
+  "05-19": {
+    "prompt": "What does your ideal version of a weekend look like, and how often does it happen?",
+    "context": "The gap between the rest and restoration we need and what we actually give ourselves is often significant and worth examining."
+  },
+  "05-20": {
+    "prompt": "What is something in your life that is genuinely good and working well?",
+    "context": "The mind attends to problems and takes successes for granted. Deliberately noticing what's actually working well is a form of accurate perception."
+  },
+  "05-21": {
+    "prompt": "What does it mean to live according to your own values rather than inherited ones?",
+    "context": "We absorb values from family and culture before we can evaluate them. The work of choosing your own — consciously — is ongoing."
+  },
+  "05-22": {
+    "prompt": "What is a question you've been carrying that you haven't been able to answer?",
+    "context": "Some questions don't resolve quickly, and holding them without forcing premature closure is itself a kind of wisdom. What are you still sitting with?"
+  },
+  "05-23": {
+    "prompt": "Where in your life are you asking for help less than you could or should?",
+    "context": "The reluctance to ask for help is often tied to pride or fear of burden. Examining where you're carrying more than you need to is practically useful."
+  },
+  "05-24": {
+    "prompt": "What kind of day do you want to have today, and what would make that likely?",
+    "context": "Intentions set in the morning shape the day more than most people realize. Being specific about the quality you want to bring is not naïve — it's useful."
+  },
+  "05-25": {
+    "prompt": "What has nature taught you that nothing else has?",
+    "context": "The natural world offers lessons in impermanence, cycle, scale, and beauty that are hard to access through other means. What has it given you?"
+  },
+  "05-26": {
+    "prompt": "What is your relationship with failure, and how has it shaped you?",
+    "context": "Our deepest shaping often comes from failure rather than success. The relationship you have with it — the stories you tell, the lessons you drew — is worth examining."
+  },
+  "05-27": {
+    "prompt": "What are you tolerating that you no longer need to tolerate?",
+    "context": "Tolerance for small discomforts accumulates. Identifying one thing you've been putting up with unnecessarily can create surprising relief."
+  },
+  "05-28": {
+    "prompt": "What does your body need more of, and what's getting in the way?",
+    "context": "The body speaks in fatigue, tension, and craving before it speaks in illness. What is yours telling you that you've been too busy to hear?"
+  },
+  "05-29": {
+    "prompt": "What is one area of your life where more honesty would help?",
+    "context": "Honesty has costs in the short term but almost always pays in the long run. Naming one place where you're rounding off the truth is the starting point."
+  },
+  "05-30": {
+    "prompt": "What memories do you return to most often, and what do they mean to you?",
+    "context": "The memories we revisit are not random. They hold something unresolved, or beloved, or instructive. Paying attention to which ones keep returning can be revealing."
+  },
+  "05-31": {
+    "prompt": "What does this season ask you to be ready for?",
+    "context": "As spring moves into its final stretch and summer approaches, what is life asking you to step into? What preparation has been quietly happening?"
+  },
+  "06-01": {
+    "prompt": "What does simplicity ask you to let go of right now?",
+    "context": "Simplicity is always an active choice, not a passive state. What in your life has accumulated past what's genuinely useful or meaningful?"
+  },
+  "06-02": {
+    "prompt": "When did you last feel deeply content, and what made that possible?",
+    "context": "Contentment is quieter than happiness and more reliable. Tracing its conditions in your own life gives you something to return to."
+  },
+  "06-03": {
+    "prompt": "What are you protecting yourself from that you no longer need protection from?",
+    "context": "Old defenses can outlast what prompted them. Some of our self-protection is now more limiting than it is helpful."
+  },
+  "06-04": {
+    "prompt": "What would it look like to be more honest in your closest relationships?",
+    "context": "Closeness invites honesty but doesn't guarantee it. There's often more room for direct, loving truth in intimate relationships than we use."
+  },
+  "06-05": {
+    "prompt": "What is the difference between who you are and who you perform yourself to be?",
+    "context": "The gap between authentic self and performed self is present in everyone and worth examining without judgment. Where do you perform most?"
+  },
+  "06-06": {
+    "prompt": "What do you want to be remembered for by the people who know you best?",
+    "context": "Legacy in the small sense — the impression you leave on those close to you — is shaped daily. Knowing what you want it to be helps you live toward it."
+  },
+  "06-07": {
+    "prompt": "How do you currently handle stress, and does your approach serve you well?",
+    "context": "Stress responses are largely habitual. Examining what you actually do — not what you intend to do — when under pressure is honest and useful."
+  },
+  "06-08": {
+    "prompt": "What would a braver version of you do today?",
+    "context": "We all have a slightly braver version of ourselves available. The gap between who we are and who we could be is often smaller than it feels."
+  },
+  "06-09": {
+    "prompt": "What do you love about the life you have built, even imperfectly?",
+    "context": "We spend a lot of time identifying what needs to change. Deliberately appreciating what is already good is both restorative and honest."
+  },
+  "06-10": {
+    "prompt": "What is something you want to do while you still can?",
+    "context": "Certain experiences, conversations, or adventures belong to particular windows of life. Is there one you've been deferring that deserves to move up?"
+  },
+  "06-11": {
+    "prompt": "What is a limit you've placed on yourself that you're not sure is real?",
+    "context": "Some limits are genuine and some are assumed. The ones we've never tested are worth a look — they may be the most movable."
+  },
+  "06-12": {
+    "prompt": "Where are you giving your energy without intention or return?",
+    "context": "Energy leaks are rarely dramatic — they're the low-grade commitments, obligations, and habits that drain without enriching. Where are yours?"
+  },
+  "06-13": {
+    "prompt": "What would it mean to truly trust the process in some area of your life?",
+    "context": "Trust in a process requires letting go of the need to control outcomes. Where in your life might you be fighting a timeline that isn't yours to set?"
+  },
+  "06-14": {
+    "prompt": "What does loyalty to yourself look like, and are you practicing it?",
+    "context": "Self-loyalty is not selfishness. It means honoring your own needs, values, and limits with the same consistency you'd offer a person you love."
+  },
+  "06-15": {
+    "prompt": "What conversation could you have this week that might change something important?",
+    "context": "Some conversations open doors that couldn't otherwise be opened. Is there one you've been putting off that is actually well within reach?"
+  },
+  "06-16": {
+    "prompt": "What is one thing you believe about yourself that no longer needs defending?",
+    "context": "Some of our most defended beliefs about ourselves are the ones we're most unsure of. What would it feel like to simply drop the defense?"
+  },
+  "06-17": {
+    "prompt": "What are you learning about who you are in your mid-year — not who you intended to be, but who you're actually becoming?",
+    "context": "Midyear is a useful moment of honest reckoning. Six months in, what are the choices and patterns that have actually defined your year?"
+  },
+  "06-18": {
+    "prompt": "What is something you do that brings genuine pleasure, and are you doing it enough?",
+    "context": "Simple pleasures are not trivial. They are part of what makes life worth living, and they deserve intentional space in a well-considered life."
+  },
+  "06-19": {
+    "prompt": "What does it feel like to be truly heard, and how often do you experience that?",
+    "context": "Being heard — not just listened to but genuinely understood — is a fundamental human need. Reflecting on whether you're getting enough of it is worth the honesty."
+  },
+  "06-20": {
+    "prompt": "Where are you holding too tightly to a particular outcome?",
+    "context": "Attachment to specific outcomes makes us less responsive to what's actually unfolding. Noticing where you're gripping hardest is the beginning of releasing."
+  },
+  "06-21": {
+    "prompt": "What does the longest day of the year ask you to be present for?",
+    "context": "The summer solstice is the year's hinge toward darker days. There's something to be said for pausing at the fullest point of the light."
+  },
+  "06-22": {
+    "prompt": "What would you want your children — or the young people in your life — to learn from watching you?",
+    "context": "We teach far more by how we live than by what we say. What is the life you're modeling, and is it what you'd consciously choose to pass on?"
+  },
+  "06-23": {
+    "prompt": "What does integrity cost you, and is it worth it?",
+    "context": "Integrity is not free — it sometimes means harder choices, slower progress, or lost approval. Knowing it's worth the cost is what makes it real."
+  },
+  "06-24": {
+    "prompt": "What is one thing you started that you haven't finished, and what would it mean to either complete it or consciously let it go?",
+    "context": "Unfinished things carry a low-level weight. Resolution in either direction — completion or conscious release — is better than indefinite suspension."
+  },
+  "06-25": {
+    "prompt": "How do you relate to criticism, and what does that reveal about your sense of self?",
+    "context": "Our response to criticism tells us a great deal about where our self-worth is anchored and how secure or fragile that anchor is."
+  },
+  "06-26": {
+    "prompt": "What do you wish you worried less about?",
+    "context": "Worry is often indiscriminate — it applies itself to what's nearby rather than what's important. Noticing which worries are genuinely useful and which are just noise is practical work."
+  },
+  "06-27": {
+    "prompt": "What has surprised you about the person you've become?",
+    "context": "Life rarely goes exactly as envisioned. The person who has emerged from the years is worth examining with fresh eyes — what's surprising, what's better than expected?"
+  },
+  "06-28": {
+    "prompt": "Where in your life do you feel the most resistance, and what is that resistance protecting?",
+    "context": "Resistance is not always irrational. Sometimes it's protecting something important. Other times it's just habit. Learning to tell the difference matters."
+  },
+  "06-29": {
+    "prompt": "What is one thing you wish you had done sooner in life, and what does that tell you about now?",
+    "context": "Regret is most useful as instruction, not self-punishment. What the 'too late' feelings point at usually has a 'not yet too late' equivalent right now."
+  },
+  "06-30": {
+    "prompt": "What does this half of the year ask you to carry into the next?",
+    "context": "The year's midpoint is a natural pause. What have you been building, learning, or becoming that deserves to be consciously carried forward?"
+  },
+  "07-01": {
+    "prompt": "What does endurance look like in your life right now, and where do you draw on it?",
+    "context": "Endurance is not always dramatic. It often looks like showing up again, choosing patience, continuing quietly. Where is yours most active?"
+  },
+  "07-02": {
+    "prompt": "What are you doing today that past-you would be impressed by?",
+    "context": "We rarely register our own progress because we experience it gradually. Stepping back to see what you've built or become is not vanity — it's accurate perception."
+  },
+  "07-03": {
+    "prompt": "What does your inner voice sound like when you're at your best?",
+    "context": "The quality of our self-talk at our best is worth capturing. It's the voice worth returning to when harder moments come."
+  },
+  "07-04": {
+    "prompt": "What does freedom mean to you in the most personal sense?",
+    "context": "Freedom is both an external condition and an internal one. What does the inner version — freedom from fear, compulsion, or false obligation — look like for you?"
+  },
+  "07-05": {
+    "prompt": "What is one thing you have been wanting to create, make, or express?",
+    "context": "The creative impulse doesn't disappear when we're too busy for it — it just goes underground. What is waiting to be made or expressed in you?"
+  },
+  "07-06": {
+    "prompt": "Where in your life have you traded authenticity for approval, and at what cost?",
+    "context": "The trade is so habitual we often don't notice it happening. Looking back at recent choices with this question in mind can be revealing."
+  },
+  "07-07": {
+    "prompt": "What does deep work feel like for you, and when did you last experience it?",
+    "context": "The experience of being fully absorbed in something meaningful — losing track of time in the best way — is worth cultivating and protecting."
+  },
+  "07-08": {
+    "prompt": "What does your relationship with money reveal about your values?",
+    "context": "How we spend and save is one of the most honest maps of what we actually value, as opposed to what we say we value."
+  },
+  "07-09": {
+    "prompt": "What is something you would like to be more consistent about, and what has made that difficult?",
+    "context": "Consistency is less about willpower than about understanding the barriers specific to you. Getting honest about what those are is more useful than trying harder."
+  },
+  "07-10": {
+    "prompt": "Who needs more of your time and presence than you've been giving them?",
+    "context": "The people who receive the most of us are not always the people who matter most to us. Noticing the mismatch is the beginning of correcting it."
+  },
+  "07-11": {
+    "prompt": "What is a version of your life that you closed off but still sometimes think about?",
+    "context": "The paths not taken are a normal part of any life. Examining them with curiosity rather than regret can illuminate something about your current values."
+  },
+  "07-12": {
+    "prompt": "What does honesty cost you in your most important relationship, and is it worth paying?",
+    "context": "The relationship that matters most is often the one where honesty feels highest-stakes. The cost of withholding it, over time, is usually higher than the cost of speaking."
+  },
+  "07-13": {
+    "prompt": "What is something you keep returning to that might be trying to tell you something?",
+    "context": "Recurring thoughts, dreams, or urges are often carrying a message worth decoding. What keeps surfacing in your mind that you haven't addressed?"
+  },
+  "07-14": {
+    "prompt": "How do you want to treat people on the days when it's hardest to be kind?",
+    "context": "Character is most visible in its failure modes. Knowing in advance how you want to behave under strain gives you something to return to when you lose the thread."
+  },
+  "07-15": {
+    "prompt": "What does it mean to take your own wellbeing seriously?",
+    "context": "Wellbeing taken seriously looks different from wellbeing performed for others or attended to as an afterthought. What would the serious version look like in your life?"
+  },
+  "07-16": {
+    "prompt": "What would you attempt if you weren't afraid of wasting the time?",
+    "context": "Fear of wasted time prevents many things worth trying. The time passes regardless — the question is what you do with it."
+  },
+  "07-17": {
+    "prompt": "What habit has served you so well you've stopped noticing it?",
+    "context": "Good habits that have become automatic deserve occasional recognition. They're the invisible infrastructure of a life that works."
+  },
+  "07-18": {
+    "prompt": "What does the summer heat ask you to slow down for?",
+    "context": "The height of summer has a quality that rewards stillness. What would you do with a slower, hotter, quieter version of your days?"
+  },
+  "07-19": {
+    "prompt": "What is one tension in your life that you've stopped trying to resolve?",
+    "context": "Some tensions are irresolvable and require holding rather than solving. Others are being avoided out of discomfort. Which type is yours?"
+  },
+  "07-20": {
+    "prompt": "What are you most likely to regret not doing if you look back in ten years?",
+    "context": "The regret test is an imperfect but useful heuristic. What is the decision or action that, viewed from a future self, most clearly needs to be made now?"
+  },
+  "07-21": {
+    "prompt": "What does justice mean to you, and how do you practice it in everyday life?",
+    "context": "Justice is not only a political concept. It operates in how you treat people in small interactions, whether you take what's fair, and how you speak about others."
+  },
+  "07-22": {
+    "prompt": "What do you need to let be enough for today?",
+    "context": "The habit of always adding more to the list, the day, the expectation, is exhausting. Deciding what is enough — and stopping there — is its own kind of practice."
+  },
+  "07-23": {
+    "prompt": "What are you getting better at, and how do you know?",
+    "context": "Growth is often invisible from the inside. Actively looking for evidence of improvement — not perfection, just genuine progress — is encouraging and honest."
+  },
+  "07-24": {
+    "prompt": "What does responsibility mean to you, and are you carrying your share?",
+    "context": "Responsibility can be accepted or avoided. Examining what you consider yours — and whether you're actually owning it — is a form of character work."
+  },
+  "07-25": {
+    "prompt": "What is a story from your past that shaped you more than you realized at the time?",
+    "context": "Some of the most formative experiences don't register as significant until later. Looking back with mature eyes, what stands out differently now?"
+  },
+  "07-26": {
+    "prompt": "What does your best day look like, in concrete and specific terms?",
+    "context": "Vague aspirations produce vague days. Getting specific about what your best version of a day actually contains makes it possible to create more of them."
+  },
+  "07-27": {
+    "prompt": "Where are you tolerating something you said you wouldn't?",
+    "context": "Our past commitments to ourselves are worth occasionally checking. Where have you drifted from a line you once drew clearly?"
+  },
+  "07-28": {
+    "prompt": "What does it feel like to be fully honest with yourself, and when does that happen most easily?",
+    "context": "Total self-honesty is rare and valuable. Understanding when it comes most naturally — in what conditions, with what support — helps you create more of it."
+  },
+  "07-29": {
+    "prompt": "What have you given up on that might be worth trying again?",
+    "context": "Some things we abandon rightly, and some we abandon prematurely. With time and changed circumstances, what might deserve another attempt?"
+  },
+  "07-30": {
+    "prompt": "What is one area where you are more capable than you currently act?",
+    "context": "We sometimes live beneath our own capacity out of habit, fear, or unexamined modesty. Identifying one such area and stepping into it is both honest and courageous."
+  },
+  "07-31": {
+    "prompt": "What has this summer taught you so far?",
+    "context": "Summer has a particular quality of fullness that passes before we register it. Pausing to name what it's given you — what you've learned or noticed — is a useful practice."
+  },
+  "08-01": {
+    "prompt": "What does craft mean to you, and where do you practice it in your life?",
+    "context": "Craft is the application of care and skill to whatever you do. It doesn't require artistry — only attention. Where in your life do you approach things with that quality?"
+  },
+  "08-02": {
+    "prompt": "What is the most important work you do that nobody sees?",
+    "context": "Invisible work — emotional labor, quiet care, private discipline — is often the most essential. Recognizing it in yourself is a form of honest accounting."
+  },
+  "08-03": {
+    "prompt": "Where in your life do you feel the most resistance to change, and why?",
+    "context": "Resistance to change is normal and sometimes appropriate. Understanding what specifically you're protecting can help you decide if it still needs protecting."
+  },
+  "08-04": {
+    "prompt": "What would it mean to be truly generous with your presence?",
+    "context": "Presence is perhaps the most fundamental thing we can offer another person. What would it mean to give it more fully, with less distraction?"
+  },
+  "08-05": {
+    "prompt": "What do you know now that you wish you had known at the beginning of this year?",
+    "context": "Mid-to-late summer is a moment of reflection, when the year's shape has become clear. What learning has crystallized that wasn't available in January?"
+  },
+  "08-06": {
+    "prompt": "What are you pretending to be fine about that you're not really fine about?",
+    "context": "The performance of okayness is one of the most exhausting things we do. Naming what you're actually carrying — even privately — offers some relief."
+  },
+  "08-07": {
+    "prompt": "What does your relationship with work reveal about your sense of identity?",
+    "context": "Work is one of the primary ways we construct identity, especially in cultures that lead with what we do. What does yours reveal about how you see yourself?"
+  },
+  "08-08": {
+    "prompt": "What is one commitment you've made to yourself that you have consistently kept?",
+    "context": "Kept promises to yourself build self-trust. Identifying one that has held — even imperfectly — is both encouraging and worth acknowledging."
+  },
+  "08-09": {
+    "prompt": "What would you do differently if you knew this was the last version of your life?",
+    "context": "There is only one version. The thought experiment creates useful urgency around choices that might otherwise feel infinitely deferrable."
+  },
+  "08-10": {
+    "prompt": "What does patience with yourself look like, and is it something you practice?",
+    "context": "Self-patience is distinct from self-indulgence. It means allowing yourself to be in process without punishing the pace."
+  },
+  "08-11": {
+    "prompt": "Where do you feel the most creative tension, and what does that tension want to produce?",
+    "context": "Creative tension is the productive discomfort between what is and what could be. Rather than resolving it prematurely, what would happen if you stayed with it?"
+  },
+  "08-12": {
+    "prompt": "What is a belief about the world that you hold but rarely say aloud?",
+    "context": "Our private beliefs — the ones we hold back for fear of disagreement or judgment — are often the ones most worth examining."
+  },
+  "08-13": {
+    "prompt": "What would it take for you to feel that you are enough?",
+    "context": "The feeling of enoughness is often assumed to require external proof. Examining what would actually satisfy that need — and whether it's achievable — is clarifying."
+  },
+  "08-14": {
+    "prompt": "How do you nourish yourself intellectually, and is it enough?",
+    "context": "The mind, like the body, needs feeding. Reflecting on what you're reading, thinking about, or engaging with — and whether it's stimulating or just filling time — matters."
+  },
+  "08-15": {
+    "prompt": "What is the most important lesson your parents taught you, and do you live by it?",
+    "context": "Inherited wisdom is worth examining: what has stood up to the test of your own experience, and what needs to be revised?"
+  },
+  "08-16": {
+    "prompt": "What does it feel like to be fully committed to something?",
+    "context": "Commitment changes the quality of effort and attention in ways that half-commitment never does. Where in your life do you have that quality, and where is it absent?"
+  },
+  "08-17": {
+    "prompt": "What would you like to release before the year's end?",
+    "context": "The second half of the year is a natural time to consider what you want to arrive at December without. Naming it now gives it somewhere to go."
+  },
+  "08-18": {
+    "prompt": "What does equality mean to you in the context of your daily life and choices?",
+    "context": "Abstract commitments to equality become real or hollow in everyday choices — who you include, how you speak, where you give attention. Where is yours being practiced?"
+  },
+  "08-19": {
+    "prompt": "What is one quality in others that you wish you were better at yourself?",
+    "context": "Admiring qualities in others that we lack can be either inspiring or deflating. What we do with the admiration — whether it becomes aspiration or envy — is up to us."
+  },
+  "08-20": {
+    "prompt": "What would a day completely on your own terms look like?",
+    "context": "Imagining a day free of external obligation can reveal what you'd actually choose — which is itself revealing about what your current life is missing or providing."
+  },
+  "08-21": {
+    "prompt": "What is the most important thing you have ever decided, and how did you make that decision?",
+    "context": "Examining how you made your biggest decisions tells you something about your decision-making process — its strengths and its weak points."
+  },
+  "08-22": {
+    "prompt": "What does showing up look like in your most important commitments?",
+    "context": "Showing up is the repeated, unglamorous foundation of any relationship or pursuit that matters. Where are you doing it well and where are you falling short?"
+  },
+  "08-23": {
+    "prompt": "What do you want to tell the people you love while there is time?",
+    "context": "There is something we mean to say that we keep postponing. Today is a good day to say it."
+  },
+  "08-24": {
+    "prompt": "What has this summer given you that you didn't expect?",
+    "context": "Unexpected gifts — encounters, realizations, small moments of beauty — often come in summer's slower rhythm. Naming what arrived unbidden is its own kind of gratitude."
+  },
+  "08-25": {
+    "prompt": "Where in your life do you sense a door beginning to close, and how do you feel about that?",
+    "context": "Life is full of closing doors, not all of them bad. Some endings are losses; some are completions. What is ending for you right now?"
+  },
+  "08-26": {
+    "prompt": "What does your current relationship with time reveal about your priorities?",
+    "context": "Time is allocated, not found. Looking at where your hours actually go — rather than where you intend them to go — is one of the most accurate maps of your priorities."
+  },
+  "08-27": {
+    "prompt": "What is a question you are living inside of right now?",
+    "context": "Some questions don't need immediate answers — they need to be lived with. What is the question your life is currently organized around?"
+  },
+  "08-28": {
+    "prompt": "What would you like to be more courageous about in the season ahead?",
+    "context": "As summer begins to wind toward autumn, there's an invitation to name where you want to show up more fully. What has held you back that you're ready to move past?"
+  },
+  "08-29": {
+    "prompt": "What does it mean to take good care of yourself, and are you actually doing it?",
+    "context": "Self-care is easily reduced to a checklist or avoided entirely. The honest question is whether you are actually tending to the things — physical, emotional, relational — that keep you well."
+  },
+  "08-30": {
+    "prompt": "What is one decision you've been putting off that deserves to be made?",
+    "context": "Deferred decisions have a cost even when unmade. Identifying one that is ready to be resolved — even imperfectly — is a relief."
+  },
+  "08-31": {
+    "prompt": "What did this month harvest for you?",
+    "context": "August has a ripeness to it, a sense of fullness before the turning. What matured or resolved in you this month that was quietly growing all along?"
+  },
+  "09-01": {
+    "prompt": "What does autumn ask you to prepare for?",
+    "context": "September carries a particular quality of transition — summer's fullness giving way to something more deliberate. What are you beginning to gather and what are you beginning to release?"
+  },
+  "09-02": {
+    "prompt": "What is one thing you want to complete before the year ends?",
+    "context": "Four months remain. Being specific about one thing you want to actually finish — not add to a list but see through — gives the year's end a concrete shape."
+  },
+  "09-03": {
+    "prompt": "Where in your life do you feel the most settled, and what built that?",
+    "context": "Settledness is worth understanding — it doesn't happen accidentally. Recognizing what created it in one area can inform how you build it elsewhere."
+  },
+  "09-04": {
+    "prompt": "What does learning look like for you at this stage of your life?",
+    "context": "Learning at different ages has different textures — less about acquisition and more about depth, integration, and application. What is your current relationship with it?"
+  },
+  "09-05": {
+    "prompt": "What is one thing you've been meaning to forgive yourself for?",
+    "context": "Self-forgiveness is not erasure. It's the decision to stop using a past failure as current punishment. What are you still prosecuting yourself for that deserves a pardon?"
+  },
+  "09-06": {
+    "prompt": "Where in your life are you living someone else's version of success?",
+    "context": "We inherit ideas about what success looks like long before we can evaluate them. What parts of your ambition are genuinely yours and what parts are borrowed?"
+  },
+  "09-07": {
+    "prompt": "What does surrender — not defeat but genuine letting go — look like in your life?",
+    "context": "There is a kind of letting go that is not giving up but releasing control over what was never yours to control. Where might you practice that right now?"
+  },
+  "09-08": {
+    "prompt": "What is one thing your life has taught you that you couldn't have learned any other way?",
+    "context": "Some knowledge only comes through experience, through living something rather than reading about it. What is your irreplaceable, hard-won understanding?"
+  },
+  "09-09": {
+    "prompt": "How do you want to approach the last third of this year?",
+    "context": "The year's final stretch can be approached with intention or just endured. Naming a quality or commitment for this period gives it direction."
+  },
+  "09-10": {
+    "prompt": "What does it mean to live well with uncertainty?",
+    "context": "Uncertainty is permanent. The question is not how to eliminate it but how to be at home in it — to continue choosing and acting without the ground being fully solid."
+  },
+  "09-11": {
+    "prompt": "What weight are you still carrying from something that happened long ago?",
+    "context": "Old injuries — to trust, to confidence, to hope — can remain load-bearing long past the incident that caused them. What are you still carrying that's ready to be set down?"
+  },
+  "09-12": {
+    "prompt": "What does your most authentic self want that your public self rarely admits?",
+    "context": "The self we present is always a selection. What is left out of the selection — the wants and fears that don't make the public version — is often the more interesting part."
+  },
+  "09-13": {
+    "prompt": "What is a small pleasure in your life that makes a bigger difference than its size would suggest?",
+    "context": "The ratio of a small pleasure to its effect on mood and meaning is often unexpectedly high. Naming one helps you protect it."
+  },
+  "09-14": {
+    "prompt": "What would radical honesty about one area of your life look like?",
+    "context": "We moderate our honesty constantly, often for good reasons. But in one area — even privately — what would full honesty look like if you removed all the softening?"
+  },
+  "09-15": {
+    "prompt": "What is the relationship between your daily habits and the person you want to become?",
+    "context": "We don't become who we want to be by deciding to — we become them through repetition. Looking honestly at what you're currently repeating is important work."
+  },
+  "09-16": {
+    "prompt": "What are you most grateful for right now, with specific and genuine attention?",
+    "context": "Gratitude becomes a habit and can lose its texture. Bringing real specificity to it — naming exactly what and why — restores its meaning."
+  },
+  "09-17": {
+    "prompt": "What does resilience mean to you, and what has tested it most?",
+    "context": "Resilience is not the absence of hardship — it's the capacity to move through it. Looking at what has tested yours most reveals where it came from and what strengthened it."
+  },
+  "09-18": {
+    "prompt": "What is one thing you know but haven't yet acted on?",
+    "context": "The gap between knowing and acting is one of the most common and frustrating features of human life. Naming one clear instance is the first step toward closing it."
+  },
+  "09-19": {
+    "prompt": "What does belonging mean to you, and where do you experience it most?",
+    "context": "Belonging is not only about being accepted — it's about being known. Understanding where you truly experience it can help you seek more of it."
+  },
+  "09-20": {
+    "prompt": "What does your creative work — whatever form it takes — ask of you?",
+    "context": "Creative work makes demands that other work doesn't: it asks for vulnerability, for patience, for a willingness to not know. What is yours asking for that you haven't fully given?"
+  },
+  "09-21": {
+    "prompt": "As the season turns, what are you ready to let go of?",
+    "context": "The autumn equinox is the natural hinge from fullness toward release. What in your life is ready to loosen its grip — or your grip on it?"
+  },
+  "09-22": {
+    "prompt": "What is one aspect of your character that you have genuinely worked to develop, and what does that progress feel like?",
+    "context": "Character development is slow and rarely dramatic, which makes it easy to overlook. Noticing genuine progress in one dimension — even modest progress — is honest and encouraging."
+  },
+  "09-23": {
+    "prompt": "What would it mean to be truly present in your relationships this month?",
+    "context": "Presence in relationships requires deliberate attention in an age designed for distraction. What would change if you gave your most important people more of your actual focus?"
+  },
+  "09-24": {
+    "prompt": "What is a risk you've been meaning to take that keeps getting deferred?",
+    "context": "The repeated deferral of a specific risk is worth examining directly. What is the specific fear, and is it proportionate to the actual stakes?"
+  },
+  "09-25": {
+    "prompt": "What does it mean to accept help, and how easily do you do it?",
+    "context": "Accepting help gracefully is a form of trust and humility. Many of us find it harder than offering help. What is your relationship with being the one who receives?"
+  },
+  "09-26": {
+    "prompt": "What have you learned about love in the past year?",
+    "context": "Love in all its forms — romantic, familial, friendly — teaches continuously if we're paying attention. What has this year added to your understanding of it?"
+  },
+  "09-27": {
+    "prompt": "What is something you're building slowly that won't be done for years, and how do you stay committed to it?",
+    "context": "Long-arc projects — a career, a family, a practice, a self — require a different kind of commitment than short-term goals. How do you sustain yours?"
+  },
+  "09-28": {
+    "prompt": "What does peace of mind require for you, and are you creating those conditions?",
+    "context": "Peace of mind is not accidental. It has preconditions — certain kinds of honesty, certain limits on stimulation, certain qualities of relationship. Are you attending to yours?"
+  },
+  "09-29": {
+    "prompt": "What is one thing you want to say yes to in the final stretch of this year?",
+    "context": "The end of the year is coming. Rather than only deciding what to complete or release, what is worth actively, enthusiastically embracing in the time that remains?"
+  },
+  "09-30": {
+    "prompt": "What did autumn arrive with this year?",
+    "context": "Every autumn has a different quality. What did this one bring — in mood, in circumstance, in what it asked of you? Naming it before the season goes further is worth doing."
+  },
+  "10-01": {
+    "prompt": "What do you want October to ask of you?",
+    "context": "Entering a new month with intention is different from simply arriving in it. What quality or commitment do you want this month to call forth in you?"
+  },
+  "10-02": {
+    "prompt": "What is something you've been meaning to make peace with?",
+    "context": "Unresolved tensions — with people, events, or versions of yourself — have a quiet ongoing cost. Naming one you're ready to address is the beginning of resolution."
+  },
+  "10-03": {
+    "prompt": "What does your relationship with mortality ask of you right now?",
+    "context": "Not as morbid thought but as clarifying lens: knowing that time is finite changes how you prioritize. What does that knowledge, held clearly, suggest you should do differently?"
+  },
+  "10-04": {
+    "prompt": "What is one thing you're proud of having started, regardless of where it stands today?",
+    "context": "Beginning is underrated. Many of the most important things were begun without certainty they'd work out. Recognizing the courage of a start — separate from its outcome — matters."
+  },
+  "10-05": {
+    "prompt": "What does the changing light of October ask you to notice?",
+    "context": "The shortening days carry a particular quality of attention. What is becoming visible as summer's brightness yields to autumn's softer light?"
+  },
+  "10-06": {
+    "prompt": "Where in your life do you need to be more decisive?",
+    "context": "Indecision is its own choice, often made repeatedly without acknowledgment. Identifying one area where clarity is overdue — and making the call — is a relief."
+  },
+  "10-07": {
+    "prompt": "What is a quality of your character that has been tested this year, and how has it held?",
+    "context": "The year's pressures and demands are a test of character in the original sense — they reveal what's there. Reflecting on what you found is honest and useful."
+  },
+  "10-08": {
+    "prompt": "What would it look like to live with more intention in the hours between obligations?",
+    "context": "The in-between time — commutes, evenings, weekends — is often spent by default. What would it look like to inhabit those hours more deliberately?"
+  },
+  "10-09": {
+    "prompt": "What is something you've resisted understanding about yourself, and what's kept you from looking?",
+    "context": "There are things we circle rather than face. Usually the avoidance is protective, but the protection often costs more than the truth would."
+  },
+  "10-10": {
+    "prompt": "What does your body tell you about how you've been living?",
+    "context": "The body keeps an honest record — in fatigue, tension, or energy — of how we've been treating it. Listening to what it's saying right now is practical wisdom."
+  },
+  "10-11": {
+    "prompt": "What is one relationship where more honesty would help, and what specifically would you say?",
+    "context": "Generalized honesty is easier than specific honesty. Naming the relationship and the actual thing — even privately — makes the insight real and actionable."
+  },
+  "10-12": {
+    "prompt": "What does the word 'home' bring up for you, and how does that connect to your history?",
+    "context": "Our relationship with home is rarely simple — it's layered with memory, longing, and what we're building now. What does it hold for you?"
+  },
+  "10-13": {
+    "prompt": "Where are you being too hard on yourself, and what would more appropriate judgment look like?",
+    "context": "The standard we hold ourselves to is often neither fair nor useful. Getting specific about where the bar is set too high — and why — is honest work."
+  },
+  "10-14": {
+    "prompt": "What is something you do that is quietly impactful on the people around you?",
+    "context": "We tend to see our impact in large moments and miss the small, cumulative effects. What do you consistently offer — or do — that shapes those around you in ways you might not fully see?"
+  },
+  "10-15": {
+    "prompt": "What would you do with three completely free days, and what does that tell you?",
+    "context": "The hypothetical gift of unstructured time reveals what we actually hunger for beneath the schedule. What does your answer suggest about what's missing?"
+  },
+  "10-16": {
+    "prompt": "What does it mean to act with wisdom rather than just cleverness?",
+    "context": "Cleverness is fast and often self-serving. Wisdom is slower and accounts for more — for others, for long-term consequences, for what actually matters. Where do you most need wisdom right now?"
+  },
+  "10-17": {
+    "prompt": "What are you most afraid to admit about where you are in life?",
+    "context": "The admission that is hardest to make — even to yourself — is often the most important one. What is the honest truth about your current situation that you've been softening or avoiding?"
+  },
+  "10-18": {
+    "prompt": "What is one habit or practice that consistently makes you better, and are you protecting it?",
+    "context": "The practices that serve us most are often the first to be abandoned when life gets busy. Identifying what that is for you — and actively protecting it — is essential."
+  },
+  "10-19": {
+    "prompt": "What does the idea of legacy mean to you, and are you building one?",
+    "context": "Legacy is not only about what you leave behind but about what you're building now. What is the cumulative story of your choices, and are you proud of it?"
+  },
+  "10-20": {
+    "prompt": "What would it mean to fully accept what you cannot change?",
+    "context": "Acceptance is not defeat — it is the clearing that allows real action on what can be changed. Where are you spending energy resisting what is simply real?"
+  },
+  "10-21": {
+    "prompt": "Where are you in the middle of something that requires patience you're not sure you have?",
+    "context": "Middles are often the hardest part — the beginning's energy is gone and the end isn't visible. What is the hard middle you're currently in, and what does it need from you?"
+  },
+  "10-22": {
+    "prompt": "What does it mean to be a person of your word, and are you one?",
+    "context": "Being your word is not about perfection — it's about the relationship between what you say and what you do. Examining that relationship honestly is character work."
+  },
+  "10-23": {
+    "prompt": "What have you learned from a failure this year that you couldn't have learned from success?",
+    "context": "Failure is an inefficient teacher but often an irreplaceable one. The specific thing it taught you — if you're willing to look — is usually something you needed."
+  },
+  "10-24": {
+    "prompt": "What does it mean to age well, and what are you doing toward that end?",
+    "context": "Aging well is not primarily about the body — it's about depth, wisdom, continued growth, and the quality of relationships. What are you cultivating now that will matter later?"
+  },
+  "10-25": {
+    "prompt": "What conversation with yourself have you been putting off?",
+    "context": "The most important conversations are often internal — with the parts of yourself you've been avoiding. What internal dialogue has been waiting to happen?"
+  },
+  "10-26": {
+    "prompt": "What are you ready to do differently in the time remaining this year?",
+    "context": "Two months remain. Readiness is different from intention — it's a felt sense that something is actually available to change. What is genuinely ready to shift?"
+  },
+  "10-27": {
+    "prompt": "What do the people closest to you need from you that you haven't been giving?",
+    "context": "Those nearest to us often get what's left over rather than what's best. What need of theirs have you been overlooking or deferring?"
+  },
+  "10-28": {
+    "prompt": "What is one area where your optimism could be more grounded in reality?",
+    "context": "Hope that doesn't engage with reality can become avoidance. Where might you be telling yourself a rosier story than the facts support?"
+  },
+  "10-29": {
+    "prompt": "What does the end of things — seasons, years, projects, relationships — feel like for you?",
+    "context": "Our relationship with endings reveals a great deal about our relationship with change, loss, and the natural rhythm of things coming to completion."
+  },
+  "10-30": {
+    "prompt": "What do you want to release before the year ends, concretely and specifically?",
+    "context": "The seasonal turn toward year's end is a natural moment for deliberate release. Not vaguely — what specifically? A resentment, a habit, an identity that no longer fits?"
+  },
+  "10-31": {
+    "prompt": "What shadows have you been walking toward rather than away from this year?",
+    "context": "The last evening of October has always held something of the confrontation with what we'd rather not see. What has this year brought to light that you are still learning to face?"
+  },
+  "11-01": {
+    "prompt": "What do you want November to carry for you?",
+    "context": "The year's penultimate month often has a quality of gathering and quiet. What do you want to make room for as the days shorten and the year begins to close?"
+  },
+  "11-02": {
+    "prompt": "What does your life look like from the outside, and how close is that to how it feels from the inside?",
+    "context": "The gap between the life we appear to be living and the one we're actually experiencing is worth examining. Where is the distance greatest?"
+  },
+  "11-03": {
+    "prompt": "What does it mean to live with awareness of death, not as fear but as guide?",
+    "context": "Memento mori — remember you will die — is not a morbid practice but a clarifying one. What does it illuminate for you about how you're spending your days?"
+  },
+  "11-04": {
+    "prompt": "What are you most grateful for today that is specific to this moment in your life?",
+    "context": "Gratitude is most powerful when it's particular — when it names the thing that is available now and won't always be. What is that for you today?"
+  },
+  "11-05": {
+    "prompt": "What do you want to complete or resolve before the year ends?",
+    "context": "The end of the year can be approached with intention. Naming one thing you want to actually bring to completion — not just add to a list — gives the final weeks purpose."
+  },
+  "11-06": {
+    "prompt": "What does accountability look like when you're accountable only to yourself?",
+    "context": "External accountability is relatively easy. Self-accountability — the internal system by which you keep your own commitments — is harder and more revealing to examine."
+  },
+  "11-07": {
+    "prompt": "What is one way you've grown this year that you haven't fully acknowledged?",
+    "context": "Growth is often invisible to us because we inhabit it gradually. Looking back at who you were in January with honesty can reveal more change than you expect."
+  },
+  "11-08": {
+    "prompt": "What does it mean to be enough, today, as you actually are?",
+    "context": "Enoughness as a felt state — not a conclusion you reason toward but one you inhabit — is worth reflecting on. What would it actually feel like to stop adding conditions?"
+  },
+  "11-09": {
+    "prompt": "What relationship in your life has changed most this year, and how do you feel about that?",
+    "context": "Relationships shift continuously, often without our full awareness. Reflecting on which one has changed most — and what that change means — is worth the attention."
+  },
+  "11-10": {
+    "prompt": "Where in your life have you been braver than you gave yourself credit for?",
+    "context": "Everyday courage rarely gets named. Looking back at moments this year when you chose the harder, more honest path is a form of accurate self-recognition."
+  },
+  "11-11": {
+    "prompt": "What does sacrifice mean to you, and what have you sacrificed this year for something you believed in?",
+    "context": "Sacrifice is not only dramatic. The small, consistent choices to prioritize one thing over another are the most common form of it. What have you given up, and for what?"
+  },
+  "11-12": {
+    "prompt": "What would you like to understand better before the year ends?",
+    "context": "There are questions the year has raised that deserve a more deliberate attempt at understanding. What is one you'd like to take more seriously in the weeks remaining?"
+  },
+  "11-13": {
+    "prompt": "What does your current daily practice — whatever it is — reflect about your values?",
+    "context": "Daily practice is the body of our values made visible. What you actually do each day — not what you intend to do — is the most honest reflection of what you care about."
+  },
+  "11-14": {
+    "prompt": "What is a disappointment from this year that you're still processing?",
+    "context": "Disappointments are often filed away rather than examined. The ones we're still carrying deserve a moment of honest attention — what happened, what it meant, and what it's asking of you."
+  },
+  "11-15": {
+    "prompt": "What does it mean to belong to the people you love, and are you showing up for that?",
+    "context": "Belonging in close relationships is mutual and requires consistent showing up. Reflecting on whether you are actually there — not just available but genuinely present — matters."
+  },
+  "11-16": {
+    "prompt": "What is one thing you believe about what makes a good life, and how is that belief expressed in your choices?",
+    "context": "Our beliefs about the good life are tested against the choices we actually make. The gap between stated belief and lived choice is always worth examining."
+  },
+  "11-17": {
+    "prompt": "What does the approach of winter ask you to turn toward?",
+    "context": "Winter invites a kind of interior turning — less outward expression and more inward attention. What does this season ask you to look at more closely?"
+  },
+  "11-18": {
+    "prompt": "What is one way you could be more generous in the next few weeks?",
+    "context": "The end of the year tends to invite generosity. Rather than a vague intention, what is the specific, concrete act of giving that would mean something to you and someone else?"
+  },
+  "11-19": {
+    "prompt": "What has your body been asking for that you've been too busy to hear?",
+    "context": "Bodies communicate continuously, but we listen selectively. What has yours been signaling — in fatigue, tension, or hunger — that you've been too distracted or proud to respond to?"
+  },
+  "11-20": {
+    "prompt": "What is a word or phrase that has guided you this year, knowingly or otherwise?",
+    "context": "Sometimes an idea organizes a year's choices without being explicitly named. Looking back, what word or idea has been at the center of how you've lived?"
+  },
+  "11-21": {
+    "prompt": "What are you most afraid of, and is that fear proportionate to the actual risk?",
+    "context": "Fears are rarely examined directly — we navigate around them. Naming your deepest current fear and testing its proportionality is both courageous and clarifying."
+  },
+  "11-22": {
+    "prompt": "What would it mean to finish this year with integrity?",
+    "context": "Not perfection — integrity. Alignment between what you value and how you're living in the final weeks. What would that actually require of you?"
+  },
+  "11-23": {
+    "prompt": "What are you thankful for that you've never put into words?",
+    "context": "Gratitude lives in us without always surfacing. There are things — people, conditions, small mercies — that we feel but rarely articulate. What is yours?"
+  },
+  "11-24": {
+    "prompt": "What is something you want to preserve from this year — a memory, a feeling, a practice?",
+    "context": "Years contain things worth keeping. Being deliberate about what you want to carry forward — not just what to release — is also part of honest reflection."
+  },
+  "11-25": {
+    "prompt": "Where in your life are you still waiting to be given permission that you could give yourself?",
+    "context": "We wait for external validation or permission far more than we realize. Identifying one place where you're still waiting — and recognizing you have the authority to proceed — is freeing."
+  },
+  "11-26": {
+    "prompt": "What does it mean to be genuinely present at a table with people you love?",
+    "context": "Gathering at a table is one of the oldest rituals we have. What would it mean to be more fully there — less distracted, more grateful, more honest — in the conversations that matter?"
+  },
+  "11-27": {
+    "prompt": "What do you want to stop explaining or justifying about yourself?",
+    "context": "We spend energy defending choices and traits that are simply ours. Naming one thing you're done apologizing for — and feeling settled in that — is a form of self-acceptance."
+  },
+  "11-28": {
+    "prompt": "What is one thing you've received this year that you didn't deserve or earn?",
+    "context": "Grace — in the secular sense of unearned gift — appears in every life if we look honestly. Naming what has come to you without being warranted is a form of genuine humility."
+  },
+  "11-29": {
+    "prompt": "What does the coming winter ask you to protect?",
+    "context": "Winter is a season of protecting essentials — warmth, light, connection. What in your inner life needs protecting as the cold and dark increase?"
+  },
+  "11-30": {
+    "prompt": "What do you want to carry into December, and what do you want to leave in November?",
+    "context": "The final month of the year deserves intentional entry. Naming what you bring and what you release — even if the categories are small — is an act of self-awareness."
+  },
+  "12-01": {
+    "prompt": "What do you want December to feel like, and what would make that possible?",
+    "context": "December can be hectic or deliberate. Naming the quality you want to inhabit — and what would actually create it — gives you something to return to when the month pulls you away."
+  },
+  "12-02": {
+    "prompt": "What is one thing this year has cost you, and was it worth the cost?",
+    "context": "Every meaningful year costs something — energy, comfort, certainty, or the version of yourself you used to be. Asking honestly whether the cost was worth it is part of closing the year well."
+  },
+  "12-03": {
+    "prompt": "What does the quiet of winter invite you to sit with?",
+    "context": "Winter's reduction of light and pace is an invitation most of us don't accept. What becomes visible or audible when you slow down and stop filling the silence?"
+  },
+  "12-04": {
+    "prompt": "Who has shown up for you this year in ways that mattered?",
+    "context": "The people who quietly showed up — without drama or announcement — deserve to be named. Gratitude that names specifically who and what is more meaningful than the general kind."
+  },
+  "12-05": {
+    "prompt": "What is one thing you want to understand better about yourself before this year is done?",
+    "context": "The end of the year is a good time to direct honest attention at yourself. What remains genuinely opaque about who you are or how you work?"
+  },
+  "12-06": {
+    "prompt": "What have you learned about love — in any form — that you want to carry forward?",
+    "context": "A year is long enough to teach you something about love that you didn't know in January. What is the lesson, and what does it ask of you going forward?"
+  },
+  "12-07": {
+    "prompt": "What would it mean to end this year without regret about how you spent your time?",
+    "context": "Regret is often about time — what we did with the days. With weeks remaining, is there time to adjust what you'd otherwise look back on with disappointment?"
+  },
+  "12-08": {
+    "prompt": "What does integrity mean when no one is watching, and do you practice it?",
+    "context": "Character in private is the truest measure of character. What do you do — and not do — when there's no audience and no consequence but your own sense of yourself?"
+  },
+  "12-09": {
+    "prompt": "What is one story about yourself that you're ready to retire?",
+    "context": "The stories we tell ourselves shape what we attempt and what we avoid. Some are well past their usefulness. What is one you'd like to stop using to explain or limit yourself?"
+  },
+  "12-10": {
+    "prompt": "What does hope feel like for you right now, and what is it directed toward?",
+    "context": "Hope at year's end can be tired or renewed. Examining what you're currently hoping for — and whether the hope feels alive — is a useful measure of where you are."
+  },
+  "12-11": {
+    "prompt": "What small thing has consistently brought you joy this year that you might not have noticed?",
+    "context": "Large joys are easy to name. The small, recurring ones — a ritual, a view, a sound, a moment — are often the more reliable and underappreciated sources."
+  },
+  "12-12": {
+    "prompt": "What is one thing you want to do in the final weeks of this year that would make it feel complete?",
+    "context": "Completion is a feeling, not just a fact. What is the act, conversation, or moment that would give this year a sense of having been fully lived?"
+  },
+  "12-13": {
+    "prompt": "Where in your life have you been most true to yourself this year?",
+    "context": "Authentic living requires navigation — moments of truth amid many invitations to perform or conform. Where this year did you most clearly act from your actual values?"
+  },
+  "12-14": {
+    "prompt": "What do you want the year ahead to be organized around?",
+    "context": "Not a list of goals, but a central quality or commitment — a word, a theme, an intention that can organize choices when the path forward is unclear."
+  },
+  "12-15": {
+    "prompt": "What is one habit from this year that has genuinely served you and deserves to continue?",
+    "context": "Annual reflection often focuses on what to change. What is worth keeping? Naming a practice that has genuinely helped and committing to it consciously is equally important."
+  },
+  "12-16": {
+    "prompt": "What has been the most valuable thing you've learned about yourself this year?",
+    "context": "A year is a significant unit of time. Distilling the most important self-knowledge you've gained — even tentatively — is a worthwhile close to twelve months."
+  },
+  "12-17": {
+    "prompt": "What relationship do you want to invest in more deeply next year?",
+    "context": "Relationships take energy and intention. Rather than vaguely valuing them all, naming one specific relationship you want to deepen gives you a concrete place to begin."
+  },
+  "12-18": {
+    "prompt": "What does it feel like to approach the year's end with honesty about how it actually went?",
+    "context": "The temptation at year's end is to round up — to make the year more successful or more resolved than it was. What does the truly honest version look like?"
+  },
+  "12-19": {
+    "prompt": "What do you want to forgive — in yourself or in another — before the year closes?",
+    "context": "Carrying resentment or self-blame into the new year is a choice, even if it feels inevitable. What is the forgiveness that is most ready to happen?"
+  },
+  "12-20": {
+    "prompt": "What does the increasing darkness of December ask you to sit with?",
+    "context": "The year's darkest days carry a particular invitation to turn inward. What does the stillness surface for you when you stop filling it with noise and activity?"
+  },
+  "12-21": {
+    "prompt": "What does the solstice ask you to hold and to release?",
+    "context": "The winter solstice is the year's deepest turning — the longest night before the light begins to return. What have you been carrying through the dark that is ready to be released?"
+  },
+  "12-22": {
+    "prompt": "What are three things this year has given you that you would not trade?",
+    "context": "Not everything good about a year is comfortable or expected. Some of the most valuable things are hard. What has this year given you — regardless of form — that you wouldn't give back?"
+  },
+  "12-23": {
+    "prompt": "What does it mean to be generous with your spirit in the days to come?",
+    "context": "Generosity of spirit — patience, warmth, presence — is needed most in busy, stressful gatherings. What would that actually look like in the specific situations ahead of you?"
+  },
+  "12-24": {
+    "prompt": "What is the gift you most want to give to the people you love, beyond anything material?",
+    "context": "The most valuable things we can offer to those we love are rarely purchasable. What is it that they most need from you, and can you offer it more fully?"
+  },
+  "12-25": {
+    "prompt": "What does this day mean to you, separate from obligation or expectation?",
+    "context": "However you mark this day, it carries meaning beneath the surface. What does it hold for you when you look at it honestly, beyond what it's supposed to be?"
+  },
+  "12-26": {
+    "prompt": "What do you want to do with the quiet days between Christmas and the new year?",
+    "context": "The final stretch of the year has a particular, in-between quality. How do you want to inhabit it — with rest, reflection, connection, or something else?"
+  },
+  "12-27": {
+    "prompt": "What would you like to say to yourself that you haven't found the words for yet?",
+    "context": "There is usually something we know we need to hear that we've been waiting for the right moment to say. The year is ending — this is a good moment."
+  },
+  "12-28": {
+    "prompt": "What has the year asked of you that surprised you?",
+    "context": "Years rarely unfold as expected. The unexpected demands — and how you met them — often reveal more about you than anything you planned for."
+  },
+  "12-29": {
+    "prompt": "What is the most honest one-sentence description of how this year actually went?",
+    "context": "Resist the urge to qualify or soften. What is the truest single sentence you could write about the year you've lived?"
+  },
+  "12-30": {
+    "prompt": "Who do you want to be when the new year begins?",
+    "context": "Not a list of achievements but a quality of character — an intention for how you want to inhabit the days ahead. Who is the person you're beginning to become?"
+  },
+  "12-31": {
+    "prompt": "What are you most grateful for as this year closes, and what will you carry forward?",
+    "context": "The last day of the year is an invitation to hold the whole of it — the hard parts and the good parts — with gratitude and honest attention. What will you take with you into what comes next?"
+  }
+}
