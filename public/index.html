@@ -21,6 +21,14 @@
   --serif:'Cormorant Garamond',Georgia,serif;
   --sans:'DM Sans',sans-serif;
   --overlay-bg:rgba(42,26,10,0.45);
+  /* card accent stripes */
+  --accent-stoic:#b8892a;--accent-dad:#3d6040;--accent-journal:#b8512e;--accent-weekly:#b8892a;
+  /* card icon tints */
+  --tint-stoic:rgba(184,137,42,0.13);--tint-dad:rgba(61,96,64,0.13);--tint-journal:rgba(184,81,46,0.13);--tint-weekly:rgba(184,137,42,0.13);
+  /* on-accent text (for calendar today/selected chips) */
+  --on-accent:#fff;
+  /* toggle thumb */
+  --thumb:#fff;
 }
 html,body{background:var(--bg);height:100%;overflow:hidden;font-family:var(--sans);color:var(--text);}
 .app{position:fixed;inset:0;max-width:420px;margin:0 auto;background:var(--bg);}
@@ -69,18 +77,18 @@ html,body{background:var(--bg);height:100%;overflow:hidden;font-family:var(--san
   min-height:200px;
 }
 .nav-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;border-radius:14px 0 0 14px;}
-.c-stoic::before{background:#8b6030;}
-.c-dad::before{background:var(--forest);}
-.c-journal::before{background:var(--terra);}
-.c-weekly::before{background:var(--ochre);}
+.c-stoic::before{background:var(--accent-stoic);}
+.c-dad::before{background:var(--accent-dad);}
+.c-journal::before{background:var(--accent-journal);}
+.c-weekly::before{background:var(--accent-weekly);}
 .nav-card:hover{background:var(--surface2);}
 .nav-card:active{transform:scale(0.985);}
 .card-icon-bg{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
-.c-stoic .card-icon-bg{background:rgba(139,96,48,0.13);}
-.c-dad .card-icon-bg{background:rgba(61,96,64,0.13);}
-.c-journal .card-icon-bg{background:rgba(184,81,46,0.13);}
-.c-weekly .card-icon-bg{background:rgba(184,137,42,0.13);}
-.card-icon-bg svg{width:20px;height:20px;stroke-width:1.5;}
+.c-stoic .card-icon-bg{background:var(--tint-stoic);}
+.c-dad .card-icon-bg{background:var(--tint-dad);}
+.c-journal .card-icon-bg{background:var(--tint-journal);}
+.c-weekly .card-icon-bg{background:var(--tint-weekly);}
+.card-icon-bg svg{width:20px;height:20px;stroke-width:1.5;stroke:var(--brown);fill:none;}
 .card-meta{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center;}
 .card-type{font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:5px;font-weight:500;}
 .card-preview{font-size:13.5px;line-height:1.6;font-weight:300;opacity:0.78;}
@@ -119,8 +127,8 @@ html,body{background:var(--bg);height:100%;overflow:hidden;font-family:var(--san
   transition:background 0.12s,color 0.12s;color:var(--text);font-weight:300;
 }
 .cal-day:hover{background:var(--surface2);}
-.cal-day.today{background:var(--ochre);color:#fff;font-weight:500;}
-.cal-day.selected{background:var(--terra);color:#fff;font-weight:500;}
+.cal-day.today{background:var(--ochre);color:var(--on-accent);font-weight:500;}
+.cal-day.selected{background:var(--terra);color:var(--on-accent);font-weight:500;}
 .cal-day.empty{cursor:default;}
 .cal-day.other-month{opacity:0.35;}
 .cal-today-btn{margin-top:16px;width:100%;padding:12px;border-radius:10px;border:0.5px solid var(--border2);background:var(--surface);font-family:var(--sans);font-size:13px;color:var(--brown);cursor:pointer;transition:background 0.15s;letter-spacing:0.04em;}
@@ -195,7 +203,7 @@ html,body{background:var(--bg);height:100%;overflow:hidden;font-family:var(--san
 .toggle-thumb{
   position:absolute;top:3px;left:3px;
   width:22px;height:22px;border-radius:50%;
-  background:#fff;transition:transform 0.2s;
+  background:var(--thumb);transition:transform 0.2s;
   pointer-events:none;
   box-shadow:0 1px 3px rgba(0,0,0,0.2);
 }
@@ -235,7 +243,7 @@ html,body{background:var(--bg);height:100%;overflow:hidden;font-family:var(--san
     </div>
   </div>
 
-  <div id="screen-full" onclick="if(event.target===this||event.target.id==='fp-scroll')showDeck();">
+  <div id="screen-full">
     <div class="fp-bar">
       <div class="fp-meta">
         <span class="fp-type" id="fp-type"></span>
@@ -505,6 +513,15 @@ function openFull(src,e,c){
 
 
 document.getElementById('fp-close').onclick=function(){showDeck();};
+// Tap anywhere on the scroll content to close — but not on interactive elements
+document.getElementById('fp-scroll').addEventListener('click', function(e) {
+  var t = e.target;
+  while (t && t !== this) {
+    if (t.tagName === 'A' || t.tagName === 'BUTTON' || t.tagName === 'INPUT' || t.tagName === 'SELECT') return;
+    t = t.parentElement;
+  }
+  showDeck();
+});
 
 // ── Calendar ──────────────────────────────────────────────────────────────────
 var calViewDate = new Date();
@@ -588,24 +605,24 @@ fetch('/journal.json')
 // ── Themes ────────────────────────────────────────────────────────────────────
 var THEMES = {
   sand:{
-    light:{'--bg':'#f4ede0','--surface':'#ede2cf','--surface2':'#e5d7be','--border':'rgba(90,55,20,0.14)','--border2':'rgba(90,55,20,0.24)','--text':'#2a1a0a','--muted':'rgba(42,26,10,0.45)','--text-soft':'rgba(42,26,10,0.78)','--terra':'#b8512e','--ochre':'#b8892a','--brown':'#7a4820','--forest':'#3d6040','--overlay-bg':'rgba(42,26,10,0.45)'},
-    dark: {'--bg':'#1a120a','--surface':'#241a10','--surface2':'#2e2216','--border':'rgba(240,210,170,0.12)','--border2':'rgba(240,210,170,0.22)','--text':'#f0e4cc','--muted':'rgba(240,228,204,0.5)','--text-soft':'rgba(240,228,204,0.78)','--terra':'#d4734a','--ochre':'#d4a040','--brown':'#c89060','--forest':'#5a8860','--overlay-bg':'rgba(0,0,0,0.55)'}
+    light:{'--bg':'#f4ede0','--surface':'#ede2cf','--surface2':'#e5d7be','--border':'rgba(90,55,20,0.14)','--border2':'rgba(90,55,20,0.24)','--text':'#2a1a0a','--muted':'rgba(42,26,10,0.45)','--text-soft':'rgba(42,26,10,0.78)','--terra':'#b8512e','--ochre':'#b8892a','--brown':'#7a4820','--forest':'#3d6040','--overlay-bg':'rgba(42,26,10,0.45)','--accent-stoic':'#b8892a','--accent-dad':'#3d6040','--accent-journal':'#b8512e','--accent-weekly':'#b8892a','--tint-stoic':'rgba(184,137,42,0.13)','--tint-dad':'rgba(61,96,64,0.13)','--tint-journal':'rgba(184,81,46,0.13)','--tint-weekly':'rgba(184,137,42,0.13)','--on-accent':'#fff','--thumb':'#fff'},
+    dark: {'--bg':'#1a120a','--surface':'#241a10','--surface2':'#2e2216','--border':'rgba(240,210,170,0.12)','--border2':'rgba(240,210,170,0.22)','--text':'#f0e4cc','--muted':'rgba(240,228,204,0.5)','--text-soft':'rgba(240,228,204,0.78)','--terra':'#d4734a','--ochre':'#d4a040','--brown':'#c89060','--forest':'#5a8860','--overlay-bg':'rgba(0,0,0,0.55)','--accent-stoic':'#d4a040','--accent-dad':'#5a8860','--accent-journal':'#d4734a','--accent-weekly':'#d4a040','--tint-stoic':'rgba(212,160,64,0.15)','--tint-dad':'rgba(90,136,96,0.15)','--tint-journal':'rgba(212,115,74,0.15)','--tint-weekly':'rgba(212,160,64,0.15)','--on-accent':'#1a120a','--thumb':'#f0e4cc'}
   },
   slate:{
-    light:{'--bg':'#f0f2f5','--surface':'#e4e8ee','--surface2':'#d8dfe8','--border':'rgba(30,45,70,0.12)','--border2':'rgba(30,45,70,0.22)','--text':'#1a2030','--muted':'rgba(26,32,48,0.45)','--text-soft':'rgba(26,32,48,0.75)','--terra':'#3a6ea8','--ochre':'#5a8fc0','--brown':'#2a5080','--forest':'#3a7060','--overlay-bg':'rgba(20,30,50,0.45)'},
-    dark: {'--bg':'#10141e','--surface':'#181e2c','--surface2':'#202838','--border':'rgba(180,200,230,0.12)','--border2':'rgba(180,200,230,0.22)','--text':'#dce8f8','--muted':'rgba(220,232,248,0.5)','--text-soft':'rgba(220,232,248,0.78)','--terra':'#6a9fd4','--ochre':'#8abce0','--brown':'#a0c4e8','--forest':'#5a9888','--overlay-bg':'rgba(0,0,0,0.55)'}
+    light:{'--bg':'#f0f2f5','--surface':'#e4e8ee','--surface2':'#d8dfe8','--border':'rgba(30,45,70,0.12)','--border2':'rgba(30,45,70,0.22)','--text':'#1a2030','--muted':'rgba(26,32,48,0.45)','--text-soft':'rgba(26,32,48,0.75)','--terra':'#3a6ea8','--ochre':'#5a8fc0','--brown':'#2a5080','--forest':'#3a7060','--overlay-bg':'rgba(20,30,50,0.45)','--accent-stoic':'#5a8fc0','--accent-dad':'#3a7060','--accent-journal':'#3a6ea8','--accent-weekly':'#5a8fc0','--tint-stoic':'rgba(90,143,192,0.13)','--tint-dad':'rgba(58,112,96,0.13)','--tint-journal':'rgba(58,110,168,0.13)','--tint-weekly':'rgba(90,143,192,0.13)','--on-accent':'#fff','--thumb':'#fff'},
+    dark: {'--bg':'#10141e','--surface':'#181e2c','--surface2':'#202838','--border':'rgba(180,200,230,0.12)','--border2':'rgba(180,200,230,0.22)','--text':'#dce8f8','--muted':'rgba(220,232,248,0.5)','--text-soft':'rgba(220,232,248,0.78)','--terra':'#6a9fd4','--ochre':'#8abce0','--brown':'#a0c4e8','--forest':'#5a9888','--overlay-bg':'rgba(0,0,0,0.55)','--accent-stoic':'#8abce0','--accent-dad':'#5a9888','--accent-journal':'#6a9fd4','--accent-weekly':'#8abce0','--tint-stoic':'rgba(138,188,224,0.15)','--tint-dad':'rgba(90,152,136,0.15)','--tint-journal':'rgba(106,159,212,0.15)','--tint-weekly':'rgba(138,188,224,0.15)','--on-accent':'#10141e','--thumb':'#dce8f8'}
   },
   forest:{
-    light:{'--bg':'#f0f5f0','--surface':'#e2ece2','--surface2':'#d4e4d4','--border':'rgba(20,50,20,0.12)','--border2':'rgba(20,50,20,0.22)','--text':'#1a2a1a','--muted':'rgba(26,42,26,0.45)','--text-soft':'rgba(26,42,26,0.75)','--terra':'#3d6040','--ochre':'#6a8a30','--brown':'#2d4a28','--forest':'#2d6050','--overlay-bg':'rgba(20,50,20,0.45)'},
-    dark: {'--bg':'#0c1410','--surface':'#141e14','--surface2':'#1c2a1c','--border':'rgba(180,220,180,0.12)','--border2':'rgba(180,220,180,0.22)','--text':'#d8f0d0','--muted':'rgba(216,240,208,0.5)','--text-soft':'rgba(216,240,208,0.78)','--terra':'#6aaa68','--ochre':'#90c040','--brown':'#a0d080','--forest':'#50a890','--overlay-bg':'rgba(0,0,0,0.55)'}
+    light:{'--bg':'#f0f5f0','--surface':'#e2ece2','--surface2':'#d4e4d4','--border':'rgba(20,50,20,0.12)','--border2':'rgba(20,50,20,0.22)','--text':'#1a2a1a','--muted':'rgba(26,42,26,0.45)','--text-soft':'rgba(26,42,26,0.75)','--terra':'#3d6040','--ochre':'#6a8a30','--brown':'#2d4a28','--forest':'#2d6050','--overlay-bg':'rgba(20,50,20,0.45)','--accent-stoic':'#6a8a30','--accent-dad':'#2d6050','--accent-journal':'#3d6040','--accent-weekly':'#6a8a30','--tint-stoic':'rgba(106,138,48,0.13)','--tint-dad':'rgba(45,96,80,0.13)','--tint-journal':'rgba(61,96,64,0.13)','--tint-weekly':'rgba(106,138,48,0.13)','--on-accent':'#fff','--thumb':'#fff'},
+    dark: {'--bg':'#0c1410','--surface':'#141e14','--surface2':'#1c2a1c','--border':'rgba(180,220,180,0.12)','--border2':'rgba(180,220,180,0.22)','--text':'#d8f0d0','--muted':'rgba(216,240,208,0.5)','--text-soft':'rgba(216,240,208,0.78)','--terra':'#6aaa68','--ochre':'#90c040','--brown':'#a0d080','--forest':'#50a890','--overlay-bg':'rgba(0,0,0,0.55)','--accent-stoic':'#90c040','--accent-dad':'#50a890','--accent-journal':'#6aaa68','--accent-weekly':'#90c040','--tint-stoic':'rgba(144,192,64,0.15)','--tint-dad':'rgba(80,168,144,0.15)','--tint-journal':'rgba(106,170,104,0.15)','--tint-weekly':'rgba(144,192,64,0.15)','--on-accent':'#0c1410','--thumb':'#d8f0d0'}
   },
   midnight:{
-    light:{'--bg':'#f2f2f8','--surface':'#e8e8f4','--surface2':'#dcdcee','--border':'rgba(20,20,60,0.12)','--border2':'rgba(20,20,60,0.22)','--text':'#0e0e28','--muted':'rgba(14,14,40,0.45)','--text-soft':'rgba(14,14,40,0.75)','--terra':'#5050b8','--ochre':'#7070c8','--brown':'#3a3a98','--forest':'#305888','--overlay-bg':'rgba(14,14,40,0.45)'},
-    dark: {'--bg':'#080810','--surface':'#101020','--surface2':'#181830','--border':'rgba(180,180,255,0.12)','--border2':'rgba(180,180,255,0.22)','--text':'#e0e0ff','--muted':'rgba(224,224,255,0.5)','--text-soft':'rgba(224,224,255,0.78)','--terra':'#8888e8','--ochre':'#a8a8f8','--brown':'#c0c0ff','--forest':'#6080c8','--overlay-bg':'rgba(0,0,0,0.6)'}
+    light:{'--bg':'#f2f2f8','--surface':'#e8e8f4','--surface2':'#dcdcee','--border':'rgba(20,20,60,0.12)','--border2':'rgba(20,20,60,0.22)','--text':'#0e0e28','--muted':'rgba(14,14,40,0.45)','--text-soft':'rgba(14,14,40,0.75)','--terra':'#5050b8','--ochre':'#7070c8','--brown':'#3a3a98','--forest':'#305888','--overlay-bg':'rgba(14,14,40,0.45)','--accent-stoic':'#7070c8','--accent-dad':'#305888','--accent-journal':'#5050b8','--accent-weekly':'#7070c8','--tint-stoic':'rgba(112,112,200,0.13)','--tint-dad':'rgba(48,88,136,0.13)','--tint-journal':'rgba(80,80,184,0.13)','--tint-weekly':'rgba(112,112,200,0.13)','--on-accent':'#fff','--thumb':'#fff'},
+    dark: {'--bg':'#080810','--surface':'#101020','--surface2':'#181830','--border':'rgba(180,180,255,0.12)','--border2':'rgba(180,180,255,0.22)','--text':'#e0e0ff','--muted':'rgba(224,224,255,0.5)','--text-soft':'rgba(224,224,255,0.78)','--terra':'#8888e8','--ochre':'#a8a8f8','--brown':'#c0c0ff','--forest':'#6080c8','--overlay-bg':'rgba(0,0,0,0.6)','--accent-stoic':'#a8a8f8','--accent-dad':'#6080c8','--accent-journal':'#8888e8','--accent-weekly':'#a8a8f8','--tint-stoic':'rgba(168,168,248,0.15)','--tint-dad':'rgba(96,128,200,0.15)','--tint-journal':'rgba(136,136,232,0.15)','--tint-weekly':'rgba(168,168,248,0.15)','--on-accent':'#080810','--thumb':'#e0e0ff'}
   },
   rose:{
-    light:{'--bg':'#fdf0f2','--surface':'#f5e4e8','--surface2':'#ead8dc','--border':'rgba(80,20,30,0.12)','--border2':'rgba(80,20,30,0.22)','--text':'#280a10','--muted':'rgba(40,10,16,0.45)','--text-soft':'rgba(40,10,16,0.75)','--terra':'#b83050','--ochre':'#c06850','--brown':'#902040','--forest':'#6a4060','--overlay-bg':'rgba(80,20,30,0.45)'},
-    dark: {'--bg':'#1a080c','--surface':'#261014','--surface2':'#30181e','--border':'rgba(255,180,190,0.12)','--border2':'rgba(255,180,190,0.22)','--text':'#f8e0e4','--muted':'rgba(248,224,228,0.5)','--text-soft':'rgba(248,224,228,0.78)','--terra':'#e06080','--ochre':'#d88060','--brown':'#f09090','--forest':'#a06080','--overlay-bg':'rgba(0,0,0,0.55)'}
+    light:{'--bg':'#fdf0f2','--surface':'#f5e4e8','--surface2':'#ead8dc','--border':'rgba(80,20,30,0.12)','--border2':'rgba(80,20,30,0.22)','--text':'#280a10','--muted':'rgba(40,10,16,0.45)','--text-soft':'rgba(40,10,16,0.75)','--terra':'#b83050','--ochre':'#c06850','--brown':'#902040','--forest':'#6a4060','--overlay-bg':'rgba(80,20,30,0.45)','--accent-stoic':'#c06850','--accent-dad':'#6a4060','--accent-journal':'#b83050','--accent-weekly':'#c06850','--tint-stoic':'rgba(192,104,80,0.13)','--tint-dad':'rgba(106,64,96,0.13)','--tint-journal':'rgba(184,48,80,0.13)','--tint-weekly':'rgba(192,104,80,0.13)','--on-accent':'#fff','--thumb':'#fff'},
+    dark: {'--bg':'#1a080c','--surface':'#261014','--surface2':'#30181e','--border':'rgba(255,180,190,0.12)','--border2':'rgba(255,180,190,0.22)','--text':'#f8e0e4','--muted':'rgba(248,224,228,0.5)','--text-soft':'rgba(248,224,228,0.78)','--terra':'#e06080','--ochre':'#d88060','--brown':'#f09090','--forest':'#a06080','--overlay-bg':'rgba(0,0,0,0.55)','--accent-stoic':'#d88060','--accent-dad':'#a06080','--accent-journal':'#e06080','--accent-weekly':'#d88060','--tint-stoic':'rgba(216,128,96,0.15)','--tint-dad':'rgba(160,96,128,0.15)','--tint-journal':'rgba(224,96,128,0.15)','--tint-weekly':'rgba(216,128,96,0.15)','--on-accent':'#1a080c','--thumb':'#f8e0e4'}
   }
 };
 
